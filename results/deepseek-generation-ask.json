@@ -1,0 +1,262 @@
+[
+    {
+        "index": 0,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "Scatter plot",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(10,6))\nplt.scatter(x=df['Sleep Duration'], y=df['Quality of Sleep'])\nplt.title('Relationship Between Sleep Duration and Quality of Sleep')\nplt.xlabel('Sleep Duration (hours)')\nplt.ylabel('Quality of Sleep')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 1,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "Bar chart",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Calculate average sleep duration by occupation\naverage_sleep = df.groupby('Occupation')['Sleep Duration'].mean()\n\n# Create bar chart\nplt.figure(figsize=(10, 6))\naverage_sleep.plot(kind='bar', color='skyblue')\nplt.title('Average Sleep Duration by Occupation')\nplt.xlabel('Occupation')\nplt.ylabel('Average Sleep Duration (hours)')\nplt.xticks(rotation=45)\nplt.tight_layout()\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 2,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "Histogram",
+        "chart_code": "\nimport matplotlib.pyplot as plt\nplt.figure(figsize=(10,6))\nplt.hist(df['Stress Level'], bins=10, edgecolor='black')\nplt.title('Distribution of Stress Levels')\nplt.xlabel('Stress Level')\nplt.ylabel('Frequency')\nplt.grid(True)\n",
+        "hit": 1,
+        "hand_check": 0
+    },
+    {
+        "index": 3,
+        "success": 1,
+        "chart_type": "pie",
+        "expected_chart_type": "Pie chart",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Count gender distribution\ngender_counts = df['Gender'].value_counts()\n\n# Create a pie chart\nplt.figure(figsize=(6, 6))\nplt.pie(gender_counts, \n        explode=[0.1, 0],  \n        labels=gender_counts.index,\n        autopct='%1.1f%%',\n        shadow=True,\n        startangle=90)\n\nplt.title('Gender Distribution')\nplt.legend(['Male', 'Female'], loc='lower center')\n\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 4,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 5,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "Scatter plot",
+        "chart_code": "\nimport matplotlib.pyplot as plt\nimport pandas as pd\n\nplt.figure(figsize=(10, 6))\nplt.scatter(df['Physical Activity Level'], df['Quality of Sleep'])\nplt.title('Relationship Between Physical Activity and Quality of Sleep')\nplt.xlabel('Physical Activity Level')\nplt.ylabel('Quality of Sleep')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 6,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 7,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "Line chart",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Calculate average heart rate by stress level\naverage_heart_rate_by_stress = df.groupby('Stress Level')['Heart Rate'].mean().replace({np.nan: 0})\n\nplt.figure(figsize=(10, 6))\naverage_heart_rate_by_stress.plot(kind='bar')\nplt.xlabel('Stress Level')\nplt.ylabel('Average Heart Rate')\nplt.title('Comparison of Average Heart Rate by Stress Level')\nplt.legend()\nplt.show()\n",
+        "hit": 0,
+        "hand_check": 1
+    },
+    {
+        "index": 8,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "Scatter plot",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Create scatter plot of Age vs Sleep Duration\nplt.figure(figsize=(10,6))\ndf.plot(kind='scatter', x='Age', y='Sleep Duration', color='blue', alpha=0.7)\nplt.title('Relationship Between Age and Sleep Duration')\nplt.xlabel('Age')\nplt.ylabel('Sleep Duration (hours)')\nplt.grid(True)\nplt.tight_layout()\nplt.savefig('age vs sleep duration.png')\n",
+        "hit": 1,
+        "hand_check": 0
+    },
+    {
+        "index": 9,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 10,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "Bar chart",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Assuming df is already loaded with the dataset\ndf.groupby('Gender')['Stress Level'].mean().plot(kind='bar')\n\nplt.xlabel('Gender')\nplt.ylabel('Average Stress Level')\nplt.title('Comparison of Average Stress Levels by Gender')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 11,
+        "success": 1,
+        "chart_type": "pie",
+        "expected_chart_type": "Pie chart",
+        "chart_code": "\nimport matplotlib.pyplot as plt\ncounts = df['Sleep Disorder'].value_counts().sort_values(ascending=False)\nplt.figure(figsize=(10,6))\nplt.pie(counts, labels=counts.index, autopct='%1.1f%%')\nplt.title('Breakdown of Sleep Disorders')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 12,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "Scatter plot",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Extract relevant columns from the dataframe\ndaily_steps = df['Daily Steps'].values\nheart_rate = df['Heart Rate'].values\n\n# Create scatter plot\nplt.figure(figsize=(10, 6))\nplt.scatter(daily_steps, heart_rate)\n\n# Add labels and title\nplt.xlabel('Daily Steps')\nplt.ylabel('Heart Rate')\nplt.title('Relationship Between Daily Steps and Heart Rate')\n\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 13,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 14,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "Bar chart",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Filter data for sleep disorder presence\ndf_with = df[df['Sleep Disorder'].notna()]\ndf_without = df[~df['Sleep Disorder'].notna()]\n\n# Calculate average physical activity levels\nmean_with = df_with['Physical Activity Level'].mean()\nmean_without = df_without['Physical Activity Level'].mean()\n\nplt.figure(figsize=(10, 6))\nplt.bar(1, mean_with, label='With Sleep Disorder')\nplt.bar(2, mean_without, label='Without Sleep Disorder')\n\nplt.title('Average Physical Activity Levels by Sleep Disorder Status')\nplt.xlabel('Sleep Disorder Status')\nplt.ylabel('Physical Activity Level (steps)')\nplt.legend()\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 15,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "Scatter plot",
+        "chart_code": "\nimport matplotlib.pyplot as plt\ndf.plot.scatter(x='Stress Level', y='Sleep Duration')\nplt.xlabel('Stress Level')\nplt.ylabel('Sleep Duration')\nplt.title('Relationship Between Stress Level and Sleep Duration')\nplt.show()\n ",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 16,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 17,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "Histogram",
+        "chart_code": "\nimport matplotlib.pyplot as plt\ndf['Age'].hist(bins=20)\nplt.xlabel('Age')\nplt.ylabel('Count')\nplt.title('Age Distribution')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 18,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "Bar chart",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Group by Heart Rate Category and calculate mean Quality of Sleep\nsleep_quality_by_category = df.groupby('Heart Rate Category')['Quality of Sleep'].mean().sort_values()\n\nplt.figure(figsize=(10, 6))\nsleep_quality_by_category.plot(kind='bar')\nplt.title('Average Sleep Quality by Heart Rate Category')\nplt.xlabel('Heart Rate Category')\nplt.ylabel('Average Sleep Quality')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 19,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 20,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "Bar chart",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Calculate average sleep duration for each BMI category\naverage_sleep_by_bmi = df.groupby('BMI Category')['Sleep Duration'].mean()\n\n# Create bar chart\naverage_sleep_by_bmi.plot(kind='bar')\n\nplt.xlabel('BMI Category')\nplt.ylabel('Average Sleep Duration (hours)')\nplt.title('Average Sleep Duration by BMI Category')\n\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 21,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 22,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "Histogram",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(10,6))\ndf['Daily Steps'].hist(bins=20, edgecolor='black')\nplt.title('Distribution of Daily Steps')\nplt.xlabel('Daily Steps')\nplt.ylabel('Frequency')\nplt.tight_layout()\nplt.savefig('daily_steps_distribution.png')\nplt.close()\n",
+        "hit": 1,
+        "hand_check": 0
+    },
+    {
+        "index": 23,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "Bar chart",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Assuming 'df' is already loaded with the example dataset\ndf['Sleep Disorder'] = df['Sleep Disorder'].fillna('No Sleep Disorder')\n\n# Calculate average quality of sleep for each group\nsleep_quality = df.groupby('Sleep Disorder')['Quality of Sleep'].mean()\n\nplt.figure(figsize=(10, 6))\nsleep_quality.plot(kind='bar', color=['blue', 'red'])\nplt.title('Average Quality of Sleep by Sleep Disorder')\nplt.xlabel('Sleep Disorder')\nplt.ylabel('Average Quality of Sleep')\nplt.xticks(rotation=0)\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 24,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 25,
+        "success": 1,
+        "chart_type": "barh",
+        "expected_chart_type": "Bar chart",
+        "chart_code": "\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Calculate average age per occupation\naverage_age_by_occupation = df.groupby('Occupation')['Age'].mean().sort_values()\n\n# Create the bar chart\nplt.figure(figsize=(10, 6))\nplt.barh(average_age_by_occupation.index, average_age_by_occupation.values)\n\nplt.title('Average Age Across Different Occupations')\nplt.xlabel('Average Age')\nplt.ylabel('Occupation')\nplt.grid(True)\nplt.yticks(average_age_by_occupation.index, average_age_by_occupation.index)\n\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 0
+    },
+    {
+        "index": 26,
+        "success": 1,
+        "chart_type": "",
+        "expected_chart_type": "Pie chart",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 27,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 28,
+        "success": 0,
+        "chart_type": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 29,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "Histogram",
+        "chart_code": "\nimport matplotlib.pyplot as plt\ndf['Quality of Sleep'].hist(bins=10)\nplt.title('Distribution of Quality of Sleep')\nplt.xlabel('Quality of Sleep')\nplt.ylabel('Frequency')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    }
+]

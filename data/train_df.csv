@@ -1,0 +1,31 @@
+description,chart_type
+Show the relationship between sleep duration and quality of sleep,Scatter plot
+Compare the average sleep duration across different occupations,Bar chart
+Visualize the distribution of stress levels among all individuals,Histogram
+Show the gender distribution in the dataset,Pie chart
+Compare the average daily steps between people with and without a sleep disorder,Bar chart
+Show how physical activity level relates to quality of sleep,Scatter plot
+Visualize the distribution of BMI categories among individuals,Bar chart
+Compare the average heart rate of individuals with different stress levels,Line chart
+Show the relationship between age and sleep duration,Scatter plot
+Display the average quality of sleep for individuals grouped by occupation,Bar chart
+Compare the average stress levels between males and females,Bar chart
+Show the breakdown of sleep disorders reported in the dataset,Pie chart
+Visualize the relationship between daily steps and heart rate,Scatter plot
+Show the distribution of sleep duration values across the dataset,Histogram
+Compare the average physical activity levels of individuals with and without sleep disorders,Bar chart
+Plot the relationship between stress level and sleep duration,Scatter plot
+Compare the average blood pressure readings among different BMI categories,Bar chart
+Show the age distribution of individuals in the dataset,Histogram
+Compare the average sleep quality between individuals with different heart rate ranges,Bar chart
+Visualize the relationship between daily steps and sleep quality,Scatter plot
+Compare the average sleep duration of different BMI categories,Bar chart
+Show the relationship between stress level and heart rate,Scatter plot
+Visualize the distribution of daily steps among individuals,Histogram
+Compare the average quality of sleep between individuals with and without sleep disorders,Bar chart
+Show the relationship between physical activity level and daily steps,Scatter plot
+Compare the average age of individuals across different occupations,Bar chart
+Visualize the proportion of people in each stress level category,Pie chart
+Show the relationship between age and heart rate,Scatter plot
+Compare the average sleep duration of males and females,Bar chart
+Show the distribution of quality of sleep values in the dataset,Histogram

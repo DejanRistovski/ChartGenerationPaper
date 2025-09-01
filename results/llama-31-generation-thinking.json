@@ -1,0 +1,301 @@
+[
+    {
+        "index": 0,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo show the relationship between sleep duration and quality of sleep, I need to analyze how changes in sleep duration affect the quality of sleep. Since both variables are numerical and continuous, a scatter plot is suitable to visually examine their relationship.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Sleep Duration vs Quality of Sleep\nplt.figure(figsize=(8,5))\nplt.scatter(df['Sleep Duration'], df['Quality of Sleep'], color='skyblue', alpha=0.7)\nplt.title('Relationship between Sleep Duration and Quality of Sleep')\nplt.xlabel('Sleep Duration (hours)')\nplt.ylabel('Quality of Sleep (scale)')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 1,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average sleep duration across different occupations, I need to first group the dataset by occupation and calculate the mean of `Sleep Duration` for each occupation. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across occupations.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Occupation and calculate mean sleep duration\navg_sleep_by_occupation = df.groupby('Occupation')['Sleep Duration'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_sleep_by_occupation.plot(kind='bar', color='skyblue')\nplt.title('Average Sleep Duration by Occupation')\nplt.xlabel('Occupation')\nplt.ylabel('Average Sleep Duration (hours)')\nplt.xticks(rotation=45)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 2,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Histogram",
+        "thinking": "\nTo visualize the distribution of stress levels among all individuals, I need to consider how stress levels are distributed across the dataset. Since stress levels can vary widely and may not follow a normal distribution, it's likely that a histogram or density plot would be suitable for visualizing this data. However, given the relatively small number of unique stress levels in this dataset (ranging from 1 to 8), a bar chart could also provide a clear view of how many individuals fall into each category.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Plotting the distribution of stress levels\ndf['Stress Level'].value_counts().plot(kind='bar', color='skyblue')\nplt.title('Distribution of Stress Levels Among All Individuals')\nplt.xlabel('Stress Level')\nplt.ylabel('Count')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 1
+    },
+    {
+        "index": 3,
+        "success": 1,
+        "chart_type": "Pie Chart",
+        "expected_chart_type": "Pie chart",
+        "thinking": "\nTo show the gender distribution in the dataset, I need to count the number of males and females present in each category. Since this is a categorical variable, a pie chart or bar chart can be used to visually represent the distribution.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Count the number of males and females\ngender_counts = df['Gender'].value_counts()\n\n# Plotting\nplt.figure(figsize=(8,5))\nplt.pie(gender_counts, labels=gender_counts.index, autopct='%1.1f%%')\nplt.title('Gender Distribution in the Dataset')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 4,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average daily steps between people with and without a sleep disorder, I need to first group the dataset by `Sleep Disorder` and calculate the mean of `Daily Steps` for each category. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across different sleep disorder categories.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Sleep Disorder and calculate mean daily steps\navg_steps_by_sleep_disorder = df.groupby('Sleep Disorder')['Daily Steps'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_steps_by_sleep_disorder.plot(kind='bar', color='skyblue')\nplt.title('Average Daily Steps by Sleep Disorder Category')\nplt.xlabel('Sleep Disorder Category')\nplt.ylabel('Average Daily Steps')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 5,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo show how physical activity level relates to quality of sleep, I need to first identify the relationship between these two variables. Since both are numerical and continuous, a scatter plot is suitable to visually compare their relationship. I will also add a regression line to better understand the trend.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Physical Activity Level vs Quality of Sleep\nplt.figure(figsize=(8,5))\nplt.scatter(df['Physical Activity Level'], df['Quality of Sleep'])\n\n# Add regression line\nz = np.polyfit(df['Physical Activity Level'], df['Quality of Sleep'], 1)\np = np.poly1d(z)\nplt.plot(df['Physical Activity Level'],p(df['Physical Activity Level']),\"r--\")\n\n# Set title and labels\nplt.title('Relationship between Physical Activity Level and Quality of Sleep')\nplt.xlabel('Physical Activity Level')\nplt.ylabel('Quality of Sleep')\n\n# Show the plot\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 6,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo visualize the distribution of BMI categories among individuals, I need to first count the frequency of each BMI category in the dataset. Since we are dealing with categorical data (BMI categories), a bar chart or pie chart would be suitable to visually represent the distribution.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Count the frequency of each BMI category\nbmi_counts = df['BMI Category'].value_counts()\n\n# Plotting\nplt.figure(figsize=(8,5))\nbmi_counts.plot(kind='bar', color='skyblue')\nplt.title('Distribution of BMI Categories')\nplt.xlabel('BMI Category')\nplt.ylabel('Frequency')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 7,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Line chart",
+        "thinking": "\nTo compare the average heart rate of individuals with different stress levels, I need to first group the dataset by `Stress Level` and calculate the mean of `Heart Rate` for each stress level. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across stress levels.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Stress Level and calculate mean heart rate\navg_hr_by_stress = df.groupby('Stress Level')['Heart Rate'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_hr_by_stress.plot(kind='bar', color='skyblue')\nplt.title('Average Heart Rate by Stress Level')\nplt.xlabel('Stress Level')\nplt.ylabel('Average Heart Rate')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 0,
+        "hand_check": 1
+    },
+    {
+        "index": 8,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo show the relationship between age and sleep duration, I need to analyze how the `Sleep Duration` changes as the `Age` increases. Since both variables are numerical and continuous, a scatter plot is suitable to visualize their relationship.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Age vs Sleep Duration\nplt.figure(figsize=(8,5))\nplt.scatter(df['Age'], df['Sleep Duration'], color='skyblue', alpha=0.7)\nplt.title('Relationship between Age and Sleep Duration')\nplt.xlabel('Age')\nplt.ylabel('Sleep Duration (hours)')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 9,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo display the average quality of sleep for individuals grouped by occupation, I need to first group the dataset by `Occupation` and calculate the mean of `Quality of Sleep` for each occupation. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across occupations.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Occupation and calculate mean quality of sleep\navg_sleep_by_occupation = df.groupby('Occupation')['Quality of Sleep'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_sleep_by_occupation.plot(kind='bar', color='skyblue')\nplt.title('Average Quality of Sleep by Occupation')\nplt.xlabel('Occupation')\nplt.ylabel('Average Quality of Sleep')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 10,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average stress levels between males and females, I need to first group the dataset by gender and calculate the mean of `Stress Level` for each gender. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across genders.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Gender and calculate mean stress level\navg_stress_by_gender = df.groupby('Gender')['Stress Level'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_stress_by_gender.plot(kind='bar', color='skyblue')\nplt.title('Average Stress Levels by Gender')\nplt.xlabel('Gender')\nplt.ylabel('Average Stress Level')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 11,
+        "success": 1,
+        "chart_type": "Pie Chart",
+        "expected_chart_type": "Pie chart",
+        "thinking": "\nTo show the breakdown of sleep disorders reported in the dataset, I need to count the occurrences of each unique value in the `Sleep Disorder` column. Since we are dealing with categorical data and want to visualize the distribution of different sleep disorders, a pie chart is suitable for this purpose.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Count occurrences of each unique value in Sleep Disorder column\nsleep_disorders = df['Sleep Disorder'].value_counts()\n\n# Plotting\nplt.figure(figsize=(8,5))\nplt.pie(sleep_disorders.values, labels=sleep_disorders.index, autopct='%1.1f%%')\nplt.title('Breakdown of Sleep Disorders Reported')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 12,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo visualize the relationship between daily steps and heart rate, I need to consider that both variables are numerical and continuous. A scatter plot is suitable for this type of data as it will allow us to see the distribution of points and any potential correlations or patterns between the two variables.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Daily Steps vs Heart Rate\nplt.figure(figsize=(8,5))\nplt.scatter(df['Daily Steps'], df['Heart Rate'])\nplt.title('Relationship between Daily Steps and Heart Rate')\nplt.xlabel('Daily Steps')\nplt.ylabel('Heart Rate')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 13,
+        "success": 1,
+        "chart_type": "Histogram",
+        "expected_chart_type": "Histogram",
+        "thinking": "\nTo show the distribution of sleep duration values across the dataset, I need to create a histogram that displays the frequency of each unique value in the `Sleep Duration` column. This will give us an idea of how the data is spread out and if there are any outliers.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a histogram of sleep duration values\nplt.figure(figsize=(8,5))\ndf['Sleep Duration'].hist(bins=10, color='skyblue', edgecolor='black')\nplt.title('Distribution of Sleep Duration Values')\nplt.xlabel('Sleep Duration (hours)')\nplt.ylabel('Frequency')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 14,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average physical activity levels of individuals with and without sleep disorders, I need to first group the dataset by `Sleep Disorder` and calculate the mean of `Physical Activity Level` for each group. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across groups.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Sleep Disorder and calculate mean physical activity level\navg_activity_by_sleep_disorder = df.groupby('Sleep Disorder')['Physical Activity Level'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_activity_by_sleep_disorder.plot(kind='bar', color='skyblue')\nplt.title('Average Physical Activity Levels by Sleep Disorder')\nplt.xlabel('Sleep Disorder')\nplt.ylabel('Average Physical Activity Level')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 15,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo plot the relationship between stress level and sleep duration, I need to consider that both variables are continuous and numerical. A scatter plot is suitable for this type of analysis as it will allow us to visualize the distribution of data points and identify any potential correlations or patterns.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Stress Level vs Sleep Duration\nplt.figure(figsize=(8,5))\nplt.scatter(df['Stress Level'], df['Sleep Duration'])\nplt.title('Relationship between Stress Level and Sleep Duration')\nplt.xlabel('Stress Level')\nplt.ylabel('Sleep Duration (hours)')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 16,
+        "success": 0,
+        "chart_type": "",
+        "thinking": "",
+        "chart_code": "",
+        "hit": 0,
+        "hand_check": 0
+    },
+    {
+        "index": 17,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Histogram",
+        "thinking": "\nTo show the age distribution of individuals in the dataset, I need to count the frequency of each unique age value and plot it as a bar chart. This will give us an idea of how many people fall into different age groups.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Count the frequency of each unique age value\nage_counts = df['Age'].value_counts()\n\n# Plotting\nplt.figure(figsize=(8,5))\nage_counts.plot(kind='bar', color='skyblue')\nplt.title('Age Distribution of Individuals in the Dataset')\nplt.xlabel('Age')\nplt.ylabel('Frequency')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 0,
+        "hand_check": 1
+    },
+    {
+        "index": 18,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average sleep quality between individuals with different heart rate ranges, I need to first group the dataset by Heart Rate and calculate the mean of `Quality of Sleep` for each heart rate range. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across heart rate ranges.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Heart Rate and calculate mean sleep quality\navg_sleep_by_hr = df.groupby('Heart Rate')['Quality of Sleep'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_sleep_by_hr.plot(kind='bar', color='skyblue')\nplt.title('Average Sleep Quality by Heart Rate Range')\nplt.xlabel('Heart Rate')\nplt.ylabel('Average Sleep Quality')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 19,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo visualize the relationship between daily steps and sleep quality, I need to consider how these two variables interact with each other. Since both are numerical and continuous, a scatter plot is suitable to visually examine their relationship. Additionally, I will also include a regression line to better understand the trend of this relationship.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Daily Steps vs Quality of Sleep\nplt.figure(figsize=(8,5))\nplt.scatter(df['Daily Steps'], df['Quality of Sleep'])\n\n# Add regression line\nz = np.polyfit(df['Daily Steps'], df['Quality of Sleep'], 1)\np = np.poly1d(z)\nplt.plot(df['Daily Steps'],p(df['Daily Steps']),\"r--\")\n\n# Set title and labels\nplt.title('Relationship between Daily Steps and Quality of Sleep')\nplt.xlabel('Daily Steps')\nplt.ylabel('Quality of Sleep')\n\n# Show the plot\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 20,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average sleep duration of different BMI categories, I need to first group the dataset by `BMI Category` and calculate the mean of `Sleep Duration` for each category. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across BMI categories.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by BMI Category and calculate mean sleep duration\navg_sleep_by_bmi = df.groupby('BMI Category')['Sleep Duration'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_sleep_by_bmi.plot(kind='bar', color='skyblue')\nplt.title('Average Sleep Duration by BMI Category')\nplt.xlabel('BMI Category')\nplt.ylabel('Average Sleep Duration')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 21,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo show the relationship between stress level and heart rate, I need to analyze how changes in stress levels affect heart rates. Since both variables are numerical and continuous, a scatter plot is suitable to visually examine their relationship.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Stress Level vs Heart Rate\nplt.figure(figsize=(8,5))\nplt.scatter(df['Stress Level'], df['Heart Rate'], color='skyblue')\nplt.title('Relationship between Stress Level and Heart Rate')\nplt.xlabel('Stress Level')\nplt.ylabel('Heart Rate')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 22,
+        "success": 1,
+        "chart_type": "Histogram",
+        "expected_chart_type": "Histogram",
+        "thinking": "\nTo visualize the distribution of daily steps among individuals, I need to consider how the data is distributed and what type of chart would best represent this. Since we're dealing with a continuous variable (Daily Steps), a histogram or density plot could be suitable options. However, given that we want to show the overall distribution, a histogram might provide more insight into the spread and skewness of the data.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Plotting histogram of Daily Steps\nplt.figure(figsize=(8,5))\ndf['Daily Steps'].hist(bins=20, color='skyblue', edgecolor='black')\nplt.title('Distribution of Daily Steps Among Individuals')\nplt.xlabel('Daily Steps')\nplt.ylabel('Frequency')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 23,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average quality of sleep between individuals with and without sleep disorders, I need to first group the dataset by `Sleep Disorder` and calculate the mean of `Quality of Sleep` for each group. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across groups.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Sleep Disorder and calculate mean quality of sleep\navg_sleep_quality = df.groupby('Sleep Disorder')['Quality of Sleep'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_sleep_quality.plot(kind='bar', color='skyblue')\nplt.title('Average Quality of Sleep with/without Sleep Disorders')\nplt.xlabel('Sleep Disorder Status')\nplt.ylabel('Average Quality of Sleep')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 24,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo show the relationship between physical activity level and daily steps, I need to analyze how the `Physical Activity Level` affects the `Daily Steps`. Since both variables are numerical and continuous, a scatter plot is suitable to visually examine their relationship. \n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Physical Activity Level vs Daily Steps\nplt.figure(figsize=(8,5))\nplt.scatter(df['Physical Activity Level'], df['Daily Steps'], color='skyblue')\nplt.title('Relationship between Physical Activity Level and Daily Steps')\nplt.xlabel('Physical Activity Level')\nplt.ylabel('Daily Steps')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 25,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average age of individuals across different occupations, I need to first group the dataset by Occupation and calculate the mean of `Age` for each occupation. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across occupations.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Occupation and calculate mean age\navg_age_by_occupation = df.groupby('Occupation')['Age'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_age_by_occupation.plot(kind='bar', color='skyblue')\nplt.title('Average Age by Occupation')\nplt.xlabel('Occupation')\nplt.ylabel('Average Age')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 26,
+        "success": 1,
+        "chart_type": "Pie Chart",
+        "expected_chart_type": "Pie chart",
+        "thinking": "\nTo visualize the proportion of people in each stress level category, I need to first count the number of individuals in each stress level category and then plot a pie chart or bar chart to show the distribution. Since we are dealing with proportions, a pie chart is suitable for this purpose.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Count the number of individuals in each stress level category\nstress_counts = df['Stress Level'].value_counts()\n\n# Plotting\nplt.figure(figsize=(8,5))\nplt.pie(stress_counts, labels=stress_counts.index, autopct='%1.1f%%')\nplt.title('Proportion of People by Stress Level Category')\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 27,
+        "success": 1,
+        "chart_type": "Scatter Plot",
+        "expected_chart_type": "Scatter plot",
+        "thinking": "\nTo show the relationship between age and heart rate, I need to first identify any correlations or patterns in the data that may indicate a relationship. Since both variables are numerical and continuous, a scatter plot is suitable to visually examine their relationship.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a scatter plot of Age vs Heart Rate\nplt.figure(figsize=(8,5))\nplt.scatter(df['Age'], df['Heart Rate'])\nplt.title('Relationship between Age and Heart Rate')\nplt.xlabel('Age')\nplt.ylabel('Heart Rate')\nplt.grid(True)\nplt.show()\n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 28,
+        "success": 1,
+        "chart_type": "Bar Chart",
+        "expected_chart_type": "Bar chart",
+        "thinking": "\nTo compare the average sleep duration of males and females, I need to first group the dataset by gender and calculate the mean of `Sleep Duration` for each gender. Since the data is numerical and continuous, a bar chart is suitable to visually compare the averages across genders.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Group by Gender and calculate mean sleep duration\navg_sleep_by_gender = df.groupby('Gender')['Sleep Duration'].mean()\n\n# Plotting\nplt.figure(figsize=(8,5))\navg_sleep_by_gender.plot(kind='bar', color='skyblue')\nplt.title('Average Sleep Duration by Gender')\nplt.xlabel('Gender')\nplt.ylabel('Average Sleep Duration (hours)')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    },
+    {
+        "index": 29,
+        "success": 1,
+        "chart_type": "Histogram",
+        "expected_chart_type": "Histogram",
+        "thinking": "\nTo show the distribution of quality of sleep values in the dataset, I need to create a histogram that displays the frequency of each unique value in the 'Quality of Sleep' column. This will give us an idea of how many people have different levels of sleep quality.\n",
+        "chart_code": "\nimport matplotlib.pyplot as plt\n\n# Create a histogram of Quality of Sleep values\nplt.figure(figsize=(8,5))\ndf['Quality of Sleep'].value_counts().plot(kind='bar', color='skyblue')\nplt.title('Distribution of Quality of Sleep Values')\nplt.xlabel('Quality of Sleep')\nplt.ylabel('Frequency')\nplt.xticks(rotation=0)\nplt.tight_layout()\nplt.show() \n",
+        "hit": 1,
+        "hand_check": 2
+    }
+]
