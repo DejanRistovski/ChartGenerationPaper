@@ -1,0 +1,394 @@
+[
+    {
+        "uuid": "b9fe7090d93a09847c5e64806d786063",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/european_turnout.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "National turnouts comparison for Western region countries."
+    },
+    {
+        "uuid": "985bab0ef7790a4c89b11350af17302a",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/european_turnout.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Countries with a greater population than Austria's."
+    },
+    {
+        "uuid": "d230fdb5dc0ae99ddabf2696f0ddc1ba",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/european_turnout.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "List population size for Central/Eastern countries."
+    },
+    {
+        "uuid": "42a59ce425f642c541bc4b15071cc9de",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/european_turnout.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Number of countries breakdown by region."
+    },
+    {
+        "uuid": "c298ebba2c257a692bbd672b638fc2a2",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/1962_2006_walmart_store_openings.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Yearly trend of Walmart store openings from 1996 to 2006."
+    },
+    {
+        "uuid": "b8d94f407b88c0613290a6085e14444b",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/1962_2006_walmart_store_openings.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Top 5 states with the highest number of Walmart store openings."
+    },
+    {
+        "uuid": "7f2200854b910cb7495fa929dd21c1bc",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/1962_2006_walmart_store_openings.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of stores by type after 2000."
+    },
+    {
+        "uuid": "c869d7a7da2dbb8768abb23880f58242",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/1962_2006_walmart_store_openings.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of stores by type before 2000."
+    },
+    {
+        "uuid": "92ff1ea853e6927e3bd4076bb39ad8d7",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/1962_2006_walmart_store_openings.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Distribution of the number of stores opened each year after 2000."
+    },
+    {
+        "uuid": "14f29b8efe02540e2456c1f12610fd36",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_february_aa_flight_paths.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Top 5 airports with the highest number of arrivals."
+    },
+    {
+        "uuid": "c7e2a693998e0e836e5fb4c21a82aa5d",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_february_aa_flight_paths.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Top 5 airports with the highest number of departure."
+    },
+    {
+        "uuid": "927cd9952fda5b05d637ae2bb38dbadb",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_february_aa_flight_paths.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of top 5 flights based on their starting airports."
+    },
+    {
+        "uuid": "f8c1a8d7f6024475ce53701bf58c1697",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Dairy earnings for the top 5 states."
+    },
+    {
+        "uuid": "8dd01a484552964a4b01310a26b2bc11",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Meat revenue breakdown for New York state."
+    },
+    {
+        "uuid": "e3056411d3a6749bc03dd8765b039f2c",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of the export market for fresh versus processed fruits."
+    },
+    {
+        "uuid": "66999ed46bceb52cbec0ba9239c02079",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Relationship between beef revenue and poultry revenue among states: Texas, California, Florida, New York, and Illinois."
+    },
+    {
+        "uuid": "0abd204295610f9053cc66b84fba4b0b",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of meat revenue components for Texas."
+    },
+    {
+        "uuid": "4133ed43c50977ac645bcaa9465ae55a",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/US-shooting-incidents.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Yearly trend of incidents."
+    },
+    {
+        "uuid": "d954e4304593478b9088ac866939ff56",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/US-shooting-incidents.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Top 3 departments with the highest incidents in 2001."
+    },
+    {
+        "uuid": "134e44c38a311e39866cde77c0387d23",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/US-shooting-incidents.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of incidents by top 5 casuse of death."
+    },
+    {
+        "uuid": "9ecde33820e7e39d7a38956fe5137b25",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/US-shooting-incidents.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Top 5 casuse of death in 2001."
+    },
+    {
+        "uuid": "c310d8f6150e133cae5e4c98e1e6713e",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/US-shooting-incidents.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Cumulative incidents from 2000 to 2005."
+    },
+    {
+        "uuid": "e2dbd61691f1e075583160018cad9fa9",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/winequality-red.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Trend of average fixed acidity levels for wines rated from 3 to 6"
+    },
+    {
+        "uuid": "2b5f6df7a9a79be34c8c0a8f977b217e",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/winequality-red.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Trend of average volatile acidity levels for wines rated from 3 to 6"
+    },
+    {
+        "uuid": "3f2e3807ac5cf23f4747dbf6deca0c72",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/winequality-red.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Distribution of density for wines rated 8."
+    },
+    {
+        "uuid": "d11a07940a34109063910c8043e2adf3",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/winequality-red.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Distribution of pH levels for wines rated 8."
+    },
+    {
+        "uuid": "a7d90fecb3a81028bb58eda95fa4b002",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/winequality-red.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Distribution of citric acid levels for wines rated 8."
+    },
+    {
+        "uuid": "a61e0d15d3a9a6a3020b291cbe748f1b",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/us-cities-top-1k.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Top 10 cities by population"
+    },
+    {
+        "uuid": "de72ff1a43b1d1df234632e90d4eefbf",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/us-cities-top-1k.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Population distribution of cities in Oklahoma"
+    },
+    {
+        "uuid": "19b0f310e99e7334397af66fce0d68c3",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/us-cities-top-1k.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Relationship between latitude and population for top 10 cities by population"
+    },
+    {
+        "uuid": "07a48920abb45632ee5c977bfd1f141a",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/us-cities-top-1k.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Population comparison of cities in South Carolina and Nevada"
+    },
+    {
+        "uuid": "56b60ea661dae09fd826948bbfc2ffb4",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/medicare.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Average total payment comparison across Wisconsin hospitals."
+    },
+    {
+        "uuid": "69bcbf6e3f16621a2d5c5349f1748783",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/medicare.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Breakdown of record count by medical classification."
+    },
+    {
+        "uuid": "f5baa2b6f221b37cb3b43d91a6536d18",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/medicare.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "List how many times each provider has a reimbursement rate greater than 1."
+    },
+    {
+        "uuid": "12617b723a019f944da00a16ad5597bd",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/medicare.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of 'Alcohol and Drug Use' records in top 5 states, based on the number of hospitals."
+    },
+    {
+        "uuid": "91215b07f0670529164a5ec147efd12b",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/medicare.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Number of Alcohol and Drug Use records comparison in California vs. Texas."
+    },
+    {
+        "uuid": "69cd29f7676e8f43281d20c55e558453",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/mpg.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of vehicles by cylinder configurations."
+    },
+    {
+        "uuid": "0c8cb74c8ddbd3c1eda2208f9bb88fc1",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/mpg.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Trend of average vehicle weight over distinct model years."
+    },
+    {
+        "uuid": "95de169b1baceeaa1162a026276ff3dc",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/mpg.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Relationship between individual miles per gallon and acceleration capabilities for vehicles from the 80 model year."
+    },
+    {
+        "uuid": "f15f25520b76179b859e72e04b6bb94e",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Population comparison for the 5 most populous countries"
+    },
+    {
+        "uuid": "beebd4e77842206db87034cae7d3074a",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Population breakdown by continent."
+    },
+    {
+        "uuid": "e9fadf2db6491f9f663a151b11a34abd",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Top eight countries by GDP."
+    },
+    {
+        "uuid": "8992063e1128109a5747800723a68c1e",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Trend of average life expectancy across continents"
+    },
+    {
+        "uuid": "a0e8593c8be15334f65562d335b12d14",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/gapminder2007.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Relationship between GDP and life expectancy in 5 Americas countries with the lowest GDP"
+    },
+    {
+        "uuid": "208b9e8526928ad817eeae0b9ab060a0",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Breakdown of volcano types in the United States."
+    },
+    {
+        "uuid": "9eb1889d22d91b67db0a00a5a5adc502",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Distribution of volcano elevations in Mexico."
+    },
+    {
+        "uuid": "ccff80f7966bfba8b9f3e7f38a8cf05e",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Relationship between latitude and elevation for the 5 southernmost volcanoes."
+    },
+    {
+        "uuid": "42d090ca01f86f45a77bbfdfdc6ba56a",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Comparison of the number of volcanoes in the top 5 countries."
+    },
+    {
+        "uuid": "389e4875f5a7851b30abbd9c78203584",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Trend of volcano elevations in the 5 highest volcanoes in Mexico."
+    },
+    {
+        "uuid": "865010d949ec55e10ed3f72793271609",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/volcano_db.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Volcanoes with elevations above 4000."
+    },
+    {
+        "uuid": "187ada0c20a0449eedee6fbe1a1c5a27",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Distribution of age for survivors and non-survivors."
+    },
+    {
+        "uuid": "4ebf16febfae5fcf4d0d51b8883b5ee8",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Trend of average fare over age groups."
+    },
+    {
+        "uuid": "0687dcd9898b79c12363c87a1efea59b",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Number of survivors from each embarkation port."
+    },
+    {
+        "uuid": "1d5102a6958b13542ba6914572cfd05e",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Fare variability across ticket classes."
+    },
+    {
+        "uuid": "1e096e8f7ea22580325c9c1afa0b8a89",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Cumulative number of passengers across age groups."
+    },
+    {
+        "uuid": "59521074144a12e252a1f58d8511b8c1",
+        "dataset": "https://raw.githubusercontent.com/plotly/datasets/master/titanic.csv",
+        "language": "English",
+        "complexity": "WithoutPlotType",
+        "description": "Proportion of passengers by ticket class."
+    }
+]

@@ -1,2 +1,6 @@
 ollama
 pandas
+pyspark
+numpy
+plotly
+matplotlib
