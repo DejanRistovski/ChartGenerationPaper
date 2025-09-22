@@ -1,0 +1,3140 @@
+[
+    {
+        "index": 0,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "bar",
+        "hit": 1,
+        "score": 1.0,
+        "reasoning": "\nTo compare national turnouts for Western region countries, I need to filter the data for these countries and then calculate the average turnout for each country.\n",
+        "res_data": [
+            {
+                "hovertemplate": "country=%{x}<br>avg(nat_turnout)=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Germany",
+                    "France",
+                    "Belgium",
+                    "Luxembourg",
+                    "Austria",
+                    "Netherlands"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "mpmZmZkJU0CkcD0K16NSQLgehetRGFZACtejcD1qVkAAAAAAAABUQOxRuB6Fe1RA"
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                "Luxembourg",
+                "Belgium",
+                "Netherlands",
+                "Austria",
+                "Germany",
+                "France"
+            ],
+            "y": [
+                89.66,
+                88.38,
+                81.93,
+                80.0,
+                76.15,
+                74.56
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "bar"
+        }
+    },
+    {
+        "index": 1,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "bar",
+        "hit": 1,
+        "score": 1.0,
+        "reasoning": "\nTo visualize the countries with a greater population than Austria's, I need to filter the data for countries where the population is larger than Austria's population and then create a bar chart to display these countries.\n",
+        "res_data": [
+            {
+                "hovertemplate": "country=%{x}<br>population=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Belgium",
+                    "Czechia",
+                    "France",
+                    "Germany",
+                    "Greece",
+                    "Hungary",
+                    "Italy",
+                    "Netherlands",
+                    "Poland",
+                    "Portugal",
+                    "Romania",
+                    "Spain",
+                    "Sweden",
+                    "United Kingdom"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i4",
+                    "bdata": "FbmxAD0PowBx9f8DYcTNBHISpACo7ZUAEs+1Ay+xBAG9cEgCXS6lAE+SSwE2G/YCozaZAKxN3AM="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                "Belgium",
+                "Czechia",
+                "France",
+                "Germany",
+                "Greece",
+                "Hungary",
+                "Italy",
+                "Netherlands",
+                "Poland",
+                "Portugal",
+                "Romania",
+                "Spain",
+                "Sweden",
+                "United Kingdom"
+            ],
+            "y": [
+                11647253,
+                10686269,
+                67106161,
+                80594017,
+                10752626,
+                9825704,
+                62246674,
+                17084719,
+                38301885,
+                10825309,
+                21729871,
+                49683254,
+                10040995,
+                64769452
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "bar"
+        }
+    },
+    {
+        "index": 2,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "bar",
+        "hit": 1,
+        "score": 1.0,
+        "reasoning": "\nTo analyze the population size distribution for Central/Eastern countries, I need to filter the data for these regions and then create a bar chart with the population sizes.\n",
+        "res_data": [
+            {
+                "hovertemplate": "country=%{x}<br>population=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Bulgaria",
+                    "Croatia",
+                    "Czechia",
+                    "Estonia",
+                    "Hungary",
+                    "Latvia",
+                    "Lithuania",
+                    "Poland",
+                    "Romania",
+                    "Slovakia",
+                    "Slovenia"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i4",
+                    "bdata": "zQRtAAY3RAA9D6MAod4SAKjtlQDnWR0A9SYqAL1wSAJPkksBqhhTAIr+HQA="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                "Bulgaria",
+                "Croatia",
+                "Czechia",
+                "Estonia",
+                "Hungary",
+                "Lithuania",
+                "Latvia",
+                "Poland",
+                "Slovakia",
+                "Romania",
+                "Slovenia"
+            ],
+            "y": [
+                7144653,
+                4470534,
+                10686269,
+                1236641,
+                9825704,
+                2762485,
+                1923559,
+                38301885,
+                5445802,
+                21729871,
+                1965706
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "bar"
+        }
+    },
+    {
+        "index": 3,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "pie",
+        "hit": 0,
+        "score": 0.0,
+        "reasoning": "\nTo visualize the number of countries breakdown by region, I need to group the data by 'region' and count the number of unique 'country' values for each region.\n",
+        "res_data": [
+            {
+                "hovertemplate": "region=%{x}<br>num_countries=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "British",
+                    "Northern",
+                    "Central/Eastern",
+                    "Western",
+                    "Mediterranean"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i1",
+                    "bdata": "AgMLBgY="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "type": "pie",
+            "domain": {
+                "x": [
+                    0.0,
+                    1.0
+                ],
+                "y": [
+                    0.0,
+                    1.0
+                ]
+            },
+            "labels": [
+                "Western",
+                "Central/Eastern",
+                "Mediterranean",
+                "Northern",
+                "British"
+            ],
+            "values": [
+                6,
+                11,
+                6,
+                3,
+                2
+            ]
+        }
+    },
+    {
+        "index": 4,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the yearly trend of Walmart store openings from 1996 to 2006, I need to filter the data for these years and then create a line chart to visualize how the number of new stores opened each year.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for years between 1996 and 2006\ndf_1996_to_2006 = df.filter((df['YEAR'] >= 1996) & (df['YEAR'] <= 2006))\n\n# Group by year and count the number of new stores opened each year\ndf_yearly_trend = df_1996_to_2006.groupBy('YEAR').count().reset_index()\n\n# Create line chart with Plotly\nfig = px.line(df_yearly_trend, x='YEAR', y='count', title='Yearly Trend of Walmart Store Openings from 1996 to 2006')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 5,
+        "success": 0,
+        "model_output": "<thinking>\nTo visualize the top 5 states with the highest number of Walmart store openings, I need to filter the data for 'AR' (Arkansas), count the number of stores in each state, and then sort the results by the count in descending order. A bar chart is suitable to display this information.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for Arkansas stores\ndf_arkansas = df.filter(df['STRSTATE'] == 'AR')\n\n# Group by state and count the number of stores\ndf_count = df_arkansas.groupBy('ST').count().sort_values(by='count', ascending=False)\n\n# Create bar chart with Plotly\nfig = px.bar(df_count, x='ST', y='count', title='Top 5 States with Highest Number of Walmart Store Openings')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 6,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "pie",
+        "hit": 0,
+        "score": 0.0,
+        "reasoning": "\nTo analyze the proportion of stores by type after 2000, I need to filter the data for stores that opened after 2000 and then group them by store type. Since the data is numerical and continuous, a bar chart is suitable to visualize how many stores belong to each type.\n",
+        "res_data": [
+            {
+                "hovertemplate": "type_store=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Wal-Mart",
+                    "Supercenter"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i2",
+                    "bdata": "iwCXAQ=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "type": "pie",
+            "domain": {
+                "x": [
+                    0.0,
+                    1.0
+                ],
+                "y": [
+                    0.0,
+                    1.0
+                ]
+            },
+            "labels": [
+                "Wal-Mart",
+                "Supercenter"
+            ],
+            "values": [
+                139,
+                407
+            ]
+        }
+    },
+    {
+        "index": 7,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the proportion of stores by type before 2000, I need to filter the data for stores that opened before 2000 and then calculate the proportion of each store type in this subset.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for stores that opened before 2000\ndf_before_2000 = df.filter(df['YEAR'] < 2000)\n\n# Group by store type and calculate proportion\ndf_proportion = df_before_2000.groupBy('type_store').count().withColumn('proportion', (col('count') / df_before_2000.count()).alias('proportion'))\n\n# Create bar chart with Plotly\nfig = px.bar(df_proportion, x='type_store', y='proportion', title='Proportion of Stores by Type Before 2000')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 8,
+        "success": 0,
+        "model_output": "<thinking>\nTo visualize the distribution of the number of stores opened each year after 2000, I need to filter the data for years greater than or equal to 2000 and then count the number of stores opened in each year. A bar chart is suitable to display this information.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for years greater than or equal to 2000 and count the number of stores opened in each year\ndf_yearly_openings = df.filter(df['YEAR'] >= 2000).groupBy('YEAR').count().resetRowId()\n\n# Create bar chart with Plotly\nfig = px.bar(df_yearly_openings, x='YEAR', y='count', title='Distribution of Stores Opened Each Year After 2000')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 9,
+        "success": 0,
+        "model_output": "<thinking>\nTo visualize the top 5 airports with the highest number of arrivals, I need to filter the data for each airport and then rank them based on their arrival counts. A bar chart is suitable to display this information as it allows for easy comparison between different airports.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Group by airport and count arrivals\ndf_airport_arrivals = df.groupBy('airport1').count().orderBy('count', ascending=False)\n\n# Select top 5 airports with the highest number of arrivals\ntop_5_airports = df_airport_arrivals.limit(5).collect()\n\n# Create bar chart with Plotly\nfig = px.bar(top_5_airports, x='airport1', y='count', title='Top 5 Airports by Arrivals')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 10,
+        "success": 0,
+        "model_output": "<thinking>\nTo visualize the top 5 airports with the highest number of departures, I need to filter the data for each airport and then rank them based on their total departure count. A bar chart is suitable to display this information as it allows for easy comparison between different airports.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Group by airport and calculate total departure count\ndf_airports = df.groupBy('airport1').sum('cnt')\n\n# Sort airports by total departure count in descending order\ndf_sorted = df_airports.sort(df_airports['cnt'].desc())\n\n# Select top 5 airports with the highest number of departures\ntop_5_airports = df_sorted.limit(5)\n\n# Create bar chart with Plotly\nfig = px.bar(top_5_airports, x='airport1', y='sum(cnt)', title='Top 5 Airports by Departure Count')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 11,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "pie",
+        "hit": 0,
+        "score": 0.0,
+        "reasoning": "\nTo analyze the proportion of top 5 flights based on their starting airports, I need to first group the data by the starting airport and then calculate the total count for each airport. After that, I can sort these counts in descending order to identify the top 5 airports.\n",
+        "res_data": [
+            {
+                "hovertemplate": "airport1=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "DFW",
+                    "ORD",
+                    "MIA",
+                    "LAX",
+                    "SJU"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i1",
+                    "bdata": "IxMRCgc="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "type": "pie",
+            "domain": {
+                "x": [
+                    0.0,
+                    1.0
+                ],
+                "y": [
+                    0.0,
+                    1.0
+                ]
+            },
+            "labels": [
+                "DFW",
+                "ORD",
+                "MIA",
+                "LAX",
+                "SJU"
+            ],
+            "values": [
+                35,
+                19,
+                17,
+                10,
+                7
+            ]
+        }
+    },
+    {
+        "index": 12,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "bar",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo analyze the dairy earnings for the top 5 states, I need to filter the data for these states and then calculate the sum of dairy earnings for each state.\n",
+        "res_data": [
+            {
+                "hovertemplate": "state=%{x}<br>sum(dairy)=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "California",
+                    "Iowa",
+                    "Illinois",
+                    "Minnesota",
+                    "Nebraska"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "mpmZmZkPjUAAAAAAAMBaQClcj8L16EZAmpmZmZlBa0BSuB6F6xE+QA=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                "California",
+                "Wisconsin",
+                "New York",
+                "Idaho",
+                "Pennsylvania"
+            ],
+            "y": [
+                929.95,
+                633.6,
+                331.8,
+                294.6,
+                280.87
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "bar"
+        }
+    },
+    {
+        "index": 13,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the revenue breakdown for New York state, I need to filter the data for 'New York' and then calculate the proportion of each meat category in total exports.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for New York state\ndf_new_york = df.filter(df['state'] == 'New York')\n\n# Calculate proportion of each meat category in total exports\ndf_proportion = df_new_york.groupby('category').sum().div(df_new_york['total exports']).mul(100).reset_index()\n\n# Create bar chart with Plotly\nfig = px.bar(df_proportion, x='category', y='avg(total exports)', title='Meat Revenue Breakdown for New York State')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 14,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the proportion of export market for fresh versus processed fruits, I need to filter the data for 'fruits fresh' and 'fruits proc', then calculate their proportions as a percentage of total exports.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for fruits data\ndf_fruits = df.filter(df['category'] == 'fruits')\n\n# Calculate proportions of fresh and processed fruits\ndf_proportions = df_fruits.groupBy('code').agg({'total exports': 'sum', 'fruits fresh': 'sum', 'fruits proc': 'sum'})\n\n# Create proportion bar chart with Plotly\nfig = px.bar(df_proportions, x='code', y=['total exports', 'fruits fresh', 'fruits proc'], barmode='group',\n             title='Proportion of Export Market for Fresh vs Processed Fruits')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 15,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "scatter",
+        "hit": 0,
+        "score": 0.4,
+        "reasoning": "\nTo analyze the relationship between beef revenue and poultry revenue among states in Texas, California, Florida, New York, and Illinois, I need to filter the data for these specific states and then calculate the average revenue from beef and poultry industries for each state.\n",
+        "res_data": [
+            {
+                "hovertemplate": "variable=avg(beef)<br>state=%{x}<br>value=%{y}<extra></extra>",
+                "legendgroup": "avg(beef)",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "avg(beef)",
+                "orientation": "v",
+                "showlegend": true,
+                "textposition": "auto",
+                "x": [
+                    "Texas",
+                    "Illinois",
+                    "Florida",
+                    "California",
+                    "New York"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "AAAAAAAIjkCamZmZmdlKQM3MzMzMTEVAZmZmZmaWbEAzMzMzMzM2QA=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            },
+            {
+                "hovertemplate": "variable=avg(poultry)<br>state=%{x}<br>value=%{y}<extra></extra>",
+                "legendgroup": "avg(poultry)",
+                "marker": {
+                    "color": "#EF553B",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "avg(poultry)",
+                "orientation": "v",
+                "showlegend": true,
+                "textposition": "auto",
+                "x": [
+                    "Texas",
+                    "Illinois",
+                    "Florida",
+                    "California",
+                    "New York"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "MzMzMzMzdUAAAAAAAAAsQDMzMzMzc0xAzczMzMwsbEAzMzMzM7MxQA=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                225.4
+            ],
+            "y": [
+                228.7
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "scatter"
+        }
+    },
+    {
+        "index": 16,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the proportion of meat revenue components for Texas, I need to filter the data for 'Texas' state and then calculate the proportion of each meat revenue component. Since there are multiple categories (beef, pork, poultry, dairy), a bar chart is suitable to visualize how these components contribute to the total meat revenue.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for Texas state\ndf_texas = df.filter(df['state'] == 'Texas')\n\n# Calculate proportion of each meat revenue component\ndf_meat = df_texas.filter(df['category'].isin(['beef', 'pork', 'poultry', 'dairy']))\ndf_meat_proportion = df_meat.groupby('category').sum().div(df_meat.sum()[0]).mul(100).reset_index()\n\n# Create bar chart with Plotly\nfig = px.bar(df_meat_proportion, x='category', y='avg(total exports)', title='Proportion of Meat Revenue Components for Texas')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 17,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "scatter",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo analyze the yearly trend of incidents, I need to filter the data for the 'year' column and then create a line chart with Plotly to visualize how incidents change over time.\n",
+        "res_data": [
+            {
+                "hovertemplate": "date=%{x}<br>cause_short=%{y}<extra></extra>",
+                "legendgroup": "",
+                "line": {
+                    "color": "#636efa",
+                    "dash": "solid"
+                },
+                "marker": {
+                    "symbol": "circle"
+                },
+                "mode": "lines",
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "x": [
+                    "1984-07-13",
+                    "1984-07-13",
+                    "1984-07-18",
+                    "1984-07-20",
+                    "1984-07-20",
+                    "1984-07-21",
+                    "1984-07-23",
+                    "1984-07-24",
+                    "1984-07-24",
+                    "1984-07-27",
+                    "1984-07-27",
+                    "1984-07-29",
+                    "1984-07-30",
+                    "1984-08-04",
+                    "1984-08-06",
+                    "1984-08-06",
+                    "1984-08-09",
+                    "1984-08-19",
+                    "1984-08-19",
+                    "1984-08-21",
+                    "1984-08-26",
+                    "1984-08-26",
+                    "1984-09-01",
+                    "1984-09-02",
+                    "1984-09-02",
+                    "1984-09-02",
+                    "1984-09-05",
+                    "1984-09-07",
+                    "1984-09-09",
+                    "1984-09-09",
+                    "1984-09-12",
+                    "1984-09-12",
+                    "1984-09-12",
+                    "1984-09-14",
+                    "1984-09-16",
+                    "1984-09-17",
+                    "1984-09-18",
+                    "1984-09-20",
+                    "1984-09-21",
+                    "1984-09-23",
+                    "1984-10-02",
+                    "1984-10-02",
+                    "1984-10-06",
+                    "1984-10-15",
+                    "1984-10-18",
+                    "1984-10-21",
+                    "1984-10-21",
+                    "1984-10-25",
+                    "1984-10-25",
+                    "1984-10-26",
+                    "1984-10-26",
+                    "1984-10-27",
+                    "1984-11-04",
+                    "1984-11-06",
+                    "1984-11-08",
+                    "1984-11-09",
+                    "1984-11-10",
+                    "1984-11-13",
+                    "1984-11-16",
+                    "1984-11-19",
+                    "1984-11-24",
+                    "1984-11-26",
+                    "1984-11-30",
+                    "1984-12-02",
+                    "1984-12-03",
+                    "1984-12-05",
+                    "1984-12-06",
+                    "1984-12-13",
+                    "1984-12-14",
+                    "1984-12-17",
+                    "1984-12-18",
+                    "1984-12-18",
+                    "1984-12-19",
+                    "1984-12-19",
+                    "1984-12-21",
+                    "1984-12-21",
+                    "1984-12-23",
+                    "1984-12-26",
+                    "1984-12-29",
+                    "1984-12-30",
+                    "1984-12-31",
+                    "1984-12-31"
+                ],
+                "xaxis": "x",
+                "y": [
+                    "Struck by vehicle",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Automobile accident",
+                    "Vehicle pursuit",
+                    "Heart attack",
+                    "Automobile accident",
+                    "Aircraft accident",
+                    "Aircraft accident",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Vehicle pursuit",
+                    "Aircraft accident",
+                    "Aircraft accident",
+                    "Gunfire",
+                    "Stabbed",
+                    "Drowned",
+                    "Gunfire",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Struck by vehicle",
+                    "Struck by vehicle",
+                    "Vehicular assault",
+                    "Assault",
+                    "Gunfire",
+                    "Struck by vehicle",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Aircraft accident",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Vehicular assault",
+                    "Vehicular assault",
+                    "Automobile accident",
+                    "Stabbed",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Heart attack",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Heart attack",
+                    "Stabbed",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Gunfire",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Gunfire",
+                    "Drowned",
+                    "Assault",
+                    "Stabbed",
+                    "Struck by vehicle",
+                    "Gunfire",
+                    "Heart attack",
+                    "Gunfire",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Gunfire",
+                    "Struck by vehicle",
+                    "Gunfire",
+                    "Gunfire",
+                    "Gunfire",
+                    "Automobile accident",
+                    "Motorcycle accident",
+                    "Gunfire",
+                    "Gunfire (Accidental)",
+                    "Gunfire (Accidental)",
+                    "Gunfire (Accidental)",
+                    "Drowned",
+                    "Gunfire"
+                ],
+                "yaxis": "y",
+                "type": "scatter"
+            }
+        ],
+        "gt": {
+            "x": [
+                1984,
+                1985,
+                1986,
+                1987,
+                1988,
+                1989,
+                1990,
+                1991,
+                1992,
+                1993,
+                1994,
+                1995,
+                1996,
+                1997,
+                1998,
+                1999,
+                2000,
+                2001,
+                2002,
+                2003,
+                2004,
+                2005,
+                2006,
+                2007,
+                2008,
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016
+            ],
+            "y": [
+                82,
+                161,
+                162,
+                172,
+                180,
+                177,
+                144,
+                131,
+                152,
+                140,
+                160,
+                163,
+                126,
+                168,
+                146,
+                140,
+                162,
+                226,
+                143,
+                153,
+                153,
+                160,
+                152,
+                189,
+                158,
+                138,
+                165,
+                175,
+                141,
+                123,
+                148,
+                140,
+                69
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "scatter"
+        }
+    },
+    {
+        "index": 18,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the top 3 departments with the highest incidents in 2001, I need to filter the data for the year 2001 and then group by department name to count the number of incidents. Since we are only interested in the top 3 departments, a bar chart is suitable to visualize this information.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for year 2001 and department name\ndf_2001 = df.filter(df['year'] == 2001)\n\n# Group by department name and count incidents\ndf_grouped = df_2001.groupBy('dept_name').count().sort_values(by='count', ascending=False).head(3)\n\n# Convert to pandas DataFrame\ndf_pandas = df_grouped.toPandas()\n\n# Create bar chart with Plotly\nfig = px.bar(df_pandas, x='count', y='dept_name', title='Top 3 Departments with the Highest Incidents in 2001')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 19,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the proportion of incidents by top 5 causes of death, I need to first identify the top 5 causes of death from the given data. Then, I will group the data by these causes and calculate their proportions.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Get top 5 causes of death\ntop_5_causes = df['cause_short'].value_counts().nlargest(5)\n\n# Filter for top 5 causes and calculate proportion of incidents\ndf_top_5 = df[df['cause_short'].isin(top_5_causes.index)].groupBy('cause_short').count()\n\n# Create bar chart with Plotly\nfig = px.bar(df_top_5, x='cause_short', y='count', title='Proportion of Incidents by Top 5 Causes of Death')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 20,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the top 5 causes of death in 2001, I need to filter the data for that year and then rank the causes by their frequency.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for 2001\ndf_2001 = df.filter(df['year'] == 2001)\n\n# Group by cause and count the occurrences\ndf_cause_count = df_2001.groupBy('cause').count().orderBy('count', ascending=False)\n\n# Create bar chart with Plotly\nfig = px.bar(df_cause_count, x='cause', y='count', title='Top 5 Causes of Death in 2001')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 21,
+        "success": 0,
+        "model_output": "<thinking>\nTo visualize the cumulative incidents from 2000 to 2005, I need to filter the data for these years and then calculate the cumulative sum of incidents.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for 2000 to 2005 years\ndf_2000_to_2005 = df.filter(df['year'].isin([2000, 2001, 2002, 2003, 2004, 2005]))\n\n# Calculate cumulative sum of incidents\ndf_cumulative = df_2000_to_2005.groupBy('date').agg({'_c0': 'sum', 'year': 'first'})\n\n# Create line chart with Plotly\nfig = px.line(df_cumulative, x='date', y='_c0', title='Cumulative Incidents from 2000 to 2005')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 22,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the trend of average fixed acidity levels for wines rated from 3 to 6, I need to filter the data for these ratings and then calculate the average fixed acidity level for each wine.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for wines rated from 3 to 6\ndf_3_to_6 = df.filter(df['quality'] >= 3) & (df['quality'] <= 6)\n\n# Group by wine and calculate average fixed acidity level\ndf_avg_acidity = df_3_to_6.groupBy('wine').avg('fixed acidity')\n\n# Create bar chart with Plotly\nfig = px.bar(df_avg_acidity, x='avg(fixed acidity)', y='wine', title='Trend of Average Fixed Acidity Levels for Wines Rated from 3 to 6')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 23,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the trend of average volatile acidity levels for wines rated from 3 to 6, I need to filter the data for these ratings and then calculate the average volatile acidity level for each wine.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for wines rated from 3 to 6\ndf_wines_3_to_6 = df.filter(df['quality'] >= 3) & (df['quality'] <= 6)\n\n# Group by wine and calculate average volatile acidity level\ndf_avg_volatile_acidity = df_wines_3_to_6.groupBy('wine').avg('volatile acidity')\n\n# Convert to pandas DataFrame\ndf_pandas = df_avg_volatile_acidity.toPandas()\n\n# Create line chart with Plotly\nfig = px.line(df_pandas, x='wine', y='avg(volatile acidity)', title='Trend of Average Volatile Acidity Levels for Wines Rated from 3 to 6')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 24,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "histogram",
+        "hit": 1,
+        "score": 0.75,
+        "reasoning": "\nTo analyze the distribution of density for wines rated 8, I need to filter the data for wines with a rating of 8 and then calculate the density values. Since the density is continuous, a histogram is suitable to visualize how density values are distributed and to identify common ranges and outliers.\n",
+        "res_data": [
+            {
+                "bingroup": "x",
+                "hovertemplate": "Density=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "nbinsx": 50,
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "f8",
+                    "bdata": "J6CJsOHp7z/Oqs/VVuzvP+CcEaW9we8/hXzQs1n17z9n1edqK/bvPzSAt0CC4u8/RUdy+Q/p7z9FR3L5D+nvP7IubqMBvO8/HEKVmj3Q7z8VUn5S7dPvP1BwsaIG0+8/b/CFyVTB7z8OMsnIWdjvP78OnDOitO8/rBxaZDvf7z/4qpUJv9TvP+NTAIxn0O8/"
+                },
+                "xaxis": "x",
+                "yaxis": "y",
+                "type": "histogram"
+            }
+        ],
+        "gt": {
+            "x": [
+                0.9973,
+                0.9976,
+                0.9924,
+                0.9964,
+                0.9987,
+                0.9988,
+                0.9972,
+                0.9917,
+                0.99417,
+                0.99462,
+                0.99451,
+                0.99235,
+                0.9908,
+                0.99516,
+                0.99472,
+                0.996,
+                0.99419
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "histogram"
+        }
+    },
+    {
+        "index": 25,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "histogram",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo analyze the distribution of pH levels for wines rated 8, I need to filter the data for rows with a 'quality' rating of 8 and then create a histogram to visualize how pH values are distributed.\n",
+        "res_data": [
+            {
+                "bingroup": "x",
+                "hovertemplate": "pH Levels=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "nbinsx": 50,
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "f8",
+                    "bdata": "zczMzMzMCkDXo3A9CtcJQHsUrkfhegxACtejcD0KB0DD9Shcj8IJQDMzMzMzMwlAMzMzMzMzCUAzMzMzMzMJQMP1KFyPwg1ArkfhehSuC0CuR+F6FK4JQNejcD0K1wdAmpmZmZmZCUDNzMzMzMwKQAAAAAAAAAxA16NwPQrXCUDXo3A9CtcJQOxRuB6F6wlA"
+                },
+                "xaxis": "x",
+                "yaxis": "y",
+                "type": "histogram"
+            }
+        ],
+        "gt": {
+            "x": [
+                3.35,
+                3.23,
+                3.56,
+                3.22,
+                3.15,
+                2.88,
+                3.72,
+                3.46,
+                3.21,
+                3.2,
+                2.98,
+                3.5,
+                3.24
+            ],
+            "y": [
+                2,
+                3,
+                1,
+                1,
+                3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "histogram"
+        }
+    },
+    {
+        "index": 26,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "histogram",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo analyze the distribution of citric acid levels for wines rated 8, I need to filter the data for wines with a rating of 8 and then create a histogram to visualize how citric acid values are distributed among these wines.\n",
+        "res_data": [
+            {
+                "bingroup": "x",
+                "hovertemplate": "Citric Acid Levels=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "nbinsx": 50,
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "f8",
+                    "bdata": "cT0K16Nw3T/NzMzMzMzcP5qZmZmZmak/CtejcD0K5z9xPQrXo3DlP+xRuB6F6+E/9ihcj8L14D/2KFyPwvXgP7gehetRuM4/CtejcD0Ktz8AAAAAAADgP0jhehSuR+E/w/UoXI/C1T/2KFyPwvXYP7gehetRuJ4/H4XrUbge1T/Xo3A9CtfTPzMzMzMzM9M/"
+                },
+                "xaxis": "x",
+                "yaxis": "y",
+                "type": "histogram"
+            }
+        ],
+        "gt": {
+            "x": [
+                0.45,
+                0.46,
+                0.05,
+                0.72,
+                0.67,
+                0.56,
+                0.24,
+                0.53,
+                0.09,
+                0.5,
+                0.54,
+                0.34,
+                0.39,
+                0.03,
+                0.33,
+                0.31,
+                0.3
+            ],
+            "y": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "histogram"
+        }
+    },
+    {
+        "index": 27,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "bar",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo visualize the top 10 cities by population, I need to first filter the data for the top 10 cities with the highest population and then create a bar chart using Plotly.\n",
+        "res_data": [
+            {
+                "hovertemplate": "City=%{x}<br>Population=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "New York",
+                    "Los Angeles",
+                    "Chicago",
+                    "Houston",
+                    "Philadelphia",
+                    "Phoenix",
+                    "San Antonio",
+                    "San Diego",
+                    "Dallas",
+                    "San Jose"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i4",
+                    "bdata": "TUOAABNFOwA+fCkAyoEhAA2zFwCXFxcA+38VAHiwFADMMBMAiTwPAA=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                "New York"
+            ],
+            "y": [
+                8405837
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "bar"
+        }
+    },
+    {
+        "index": 28,
+        "success": 0,
+        "model_output": "<thinking>\nTo visualize the population distribution of cities in Oklahoma, I need to filter the data for Oklahoma and then create a choropleth map using Plotly.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for cities in Oklahoma\ndf_oklahoma = df.filter(df['State'] == 'Oklahoma')\n\n# Create choropleth map with Plotly\nfig = px.choropleth(df_oklahoma, locations=df_oklahoma['City'], color='Population', hover_name='City', color_continuous_scale=px.colors.sequential.Blues,\n                   title='Population Distribution of Cities in Oklahoma')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 29,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the relationship between latitude and population for top 10 cities by population, I need to first filter the data to include only these cities. Then, I can create a scatter plot with Plotly to visualize how population changes as latitude increases.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for top 10 cities by population (assuming this data is in the 'Population' column)\ndf_top_cities = df.sort_values('Population', ascending=False).head(10)\n\n# Create scatter plot with Plotly\nfig = px.scatter(df_top_cities, x='lat', y='Population', size='Population', color='City', hover_name='State')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 30,
+        "success": 0,
+        "model_output": "<thinking>\nTo compare the population of cities in South Carolina and Nevada, I need to filter the data for these states and then create a bar chart to visualize the population differences between them.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for cities in South Carolina and Nevada\ndf_south_carolina = df.filter(df['State'] == 'South Carolina')\ndf_nevada = df.filter(df['State'] == 'Nevada')\n\n# Create bar chart with Plotly\nfig = px.bar(x=['South Carolina', 'Nevada'], y=[df_south_carolina['Population'].mean(), df_nevada['Population'].mean()], \n             title='Population Comparison of Cities in South Carolina and Nevada',\n             labels={'South Carolina': 'Average Population (SC)', 'Nevada': 'Average Population (NV)'})\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 31,
+        "success": 0,
+        "model_output": "<thinking>\nTo compare the average total payment across Wisconsin hospitals, I need to filter the data for Wisconsin states and then calculate the average total payment for each hospital.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for Wisconsin hospitals\ndf_wisconsin = df.filter(df['State'] == 'WI')\n\n# Group by hospital and calculate average total payment\ndf_avg_payment = df_wisconsin.groupBy('Provider City').avg('Average Total Payments')\n\n# Convert to pandas DataFrame\ndf_pandas = df_avg_payment.toPandas()\n\n# Create bar chart with Plotly\nfig = px.bar(df_pandas, x='Provider City', y='avg(Average Total Payments)', title='Average Total Payment Across Wisconsin Hospitals')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 32,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the distribution of record counts by medical classification, I need to filter the data for 'Alcohol and Drug Use' classifications and then group by country to see how many records are associated with each classification.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for 'Alcohol and Drug Use' classifications\ndf_alcohol_drug_use = df.filter(df['Classification'] == 'Alcohol and Drug Use')\n\n# Group by country and count records\ndf_grouped = df_alcohol_drug_use.groupBy('country').count().resetRowIds()\n\n# Create bar chart with Plotly\nfig = px.bar(df_grouped, x='count', y='country', title='Breakdown of Record Count by Medical Classification')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 33,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the distribution of reimbursement rates for each provider, I need to filter the data for providers with a reimbursement rate greater than 1 and then count how many times this occurs.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for providers with reimbursement rate > 1\ndf_filtered = df.filter(df['Reimbursement Rate'] > 1)\n\n# Count how many times this occurs\ncount = df_filtered.count()\n\nprint(f\"Number of providers with reimbursement rate greater than 1: {count}\")\n\nfig = px.bar(x=[f\"{i+1}: {count[i]}\" for i in range(count)], y=[0]*count, labels={'x': 'Provider #', 'y': 'Count'}, title='Reimbursement Rate > 1')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 34,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the proportion of 'Alcohol and Drug Use' records in top 5 states based on the number of hospitals, I need to filter the data for these states, count the number of hospitals for each state, sort them in descending order, and then calculate the proportion of 'Alcohol and Drug Use' records for each state.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for top 5 states with most hospitals\ndf_top_states = df.groupBy('State').count().orderBy(col('count').desc()).limit(5)\n\n# Create bar chart with Plotly\nfig = px.bar(df_top_states, x='State', y='count', title='Top 5 States by Number of Hospitals')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 35,
+        "success": 0,
+        "model_output": "<thinking>\nTo compare the number of Alcohol and Drug Use records in California vs. Texas, I need to filter the data for these states and then create a bar chart to visualize the results.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for California and Texas\ndf_california = df.filter(df['State'] == 'CA')\ndf_texas = df.filter(df['State'] == 'TX')\n\n# Calculate total number of records for each state\ntotal_records_california = df_california.count()\ntotal_records_texas = df_texas.count()\n\n# Create bar chart with Plotly\nfig = px.bar(x=['California', 'Texas'], y=[total_records_california, total_records_texas], title='Number of Alcohol and Drug Use Records')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 36,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the proportion of vehicles by cylinder configurations, I need to group the data by 'cylinders' and calculate the percentage of each category.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Group by cylinders and calculate proportion\ndf_grouped = df.groupBy('cylinders').count().withColumn('proportion', (count(*) / sum(count())) * 100)\n\n# Create bar chart with Plotly\nfig = px.bar(df_grouped, x='cylinders', y='proportion', title='Proportion of Vehicles by Cylinder Configurations')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 37,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "scatter",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo analyze the trend of average vehicle weight over distinct model years, I need to first filter the data for the specified model year and then calculate the average vehicle weight for each model year. A line chart is suitable to visualize how average vehicle weight changes over time.\n",
+        "res_data": [
+            {
+                "hovertemplate": "model-year=%{x}<br>avg(weight)=%{y}<extra></extra>",
+                "legendgroup": "",
+                "line": {
+                    "color": "#636efa",
+                    "dash": "solid"
+                },
+                "marker": {
+                    "symbol": "circle"
+                },
+                "mode": "lines",
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "i4",
+                    "bdata": "RgAAAA=="
+                },
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "YbmnEZZZqkA="
+                },
+                "yaxis": "y",
+                "type": "scatter"
+            }
+        ],
+        "gt": {
+            "x": [
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77,
+                78,
+                79,
+                80,
+                81,
+                82
+            ],
+            "y": [
+                3372.793103448276,
+                2995.4285714285716,
+                3237.714285714286,
+                3419.025,
+                2877.925925925926,
+                3176.8,
+                3078.735294117647,
+                2997.3571428571427,
+                2861.8055555555557,
+                3055.344827586207,
+                2436.655172413793,
+                2522.9310344827586,
+                2453.548387096774
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "scatter"
+        }
+    },
+    {
+        "index": 38,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the relationship between individual miles per gallon (mpg) and acceleration capabilities for vehicles from the 80 model year, I need to first filter the data for vehicles from that specific model year. Then, I'll create a scatter plot using Plotly to visualize how mpg values are distributed against their corresponding acceleration values.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for 80 model year vehicles\ndf_80_model_year = df.filter(df['model-year'] == 70)\n\n# Create scatter plot with Plotly\nfig = px.scatter(df_80_model_year, x='mpg', y='acceleration', nbins=50, labels={'mpg': 'Miles per Gallon (mpg)', 'acceleration': 'Acceleration'}, \n                 title='Relationship between Miles per Gallon and Acceleration Capabilities for 80 Model Year Vehicles')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 39,
+        "success": 0,
+        "model_output": "<thinking>\nTo compare the population of the 5 most populous countries, I need to first identify these countries from the given data and then create a bar chart to visualize their population differences.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for the 5 most populous countries\ndf_top_5_pop = df.sort_values('pop', ascending=False).head(5)\n\n# Create bar chart with Plotly\nfig = px.bar(df_top_5_pop, x='country', y='pop', title='Population Comparison of the 5 Most Populous Countries')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 40,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "pie",
+        "hit": 0,
+        "score": 0.0,
+        "reasoning": "\nTo visualize the population breakdown by continent, I need to group the data by continent and then create a bar chart that shows the total population for each continent.\n",
+        "res_data": [
+            {
+                "hovertemplate": "continent=%{x}<br>sum(pop)=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Europe",
+                    "Africa",
+                    "Americas",
+                    "Oceania",
+                    "Asia"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "AACAsJN3wUEAAAA207PLQQAAAMjXycpBAAAAsKNpd0EAAGCUuWbsQQ=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "type": "pie",
+            "domain": {
+                "x": [
+                    0.0,
+                    1.0
+                ],
+                "y": [
+                    0.0,
+                    1.0
+                ]
+            },
+            "labels": [
+                "Europe",
+                "Africa",
+                "Americas",
+                "Oceania",
+                "Asia"
+            ],
+            "values": [
+                586098529.0,
+                929539692.0,
+                898871184.0,
+                24549947.0,
+                3811953827.0
+            ]
+        }
+    },
+    {
+        "index": 41,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "bar",
+        "hit": 1,
+        "score": 0.8,
+        "reasoning": "\nTo visualize the top eight countries by GDP, I need to first rank the data by GDP and then select the top eight countries. A bar chart is suitable for this type of data as it allows us to compare the values across different categories.\n",
+        "res_data": [
+            {
+                "hovertemplate": "country=%{x}<br>gdpPercap=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Norway",
+                    "Kuwait",
+                    "Singapore",
+                    "United States",
+                    "Ireland",
+                    "Hong Kong, China",
+                    "Switzerland",
+                    "Netherlands"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "VmXfFaYZ6EBIG0esXxnnQKFinL/lBOdA6/8c5vT45EAsZRnif9zjQHK/Q1GfZeNAF30FaU1Q4kCW58HdvffhQA=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                "Norway",
+                "Kuwait",
+                "Singapore",
+                "United States",
+                "Ireland",
+                "Hong Kong, China",
+                "Switzerland",
+                "Netherlands"
+            ],
+            "y": [
+                49357.19017,
+                47306.98978,
+                47143.17964,
+                42951.65309,
+                40675.99635,
+                39724.97867,
+                37506.41907,
+                36797.93332
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "bar"
+        }
+    },
+    {
+        "index": 42,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "scatter",
+        "hit": 0,
+        "score": 0.6,
+        "reasoning": "\nTo analyze the trend of average life expectancy across continents, I need to first filter the data for each continent and then calculate the average life expectancy for each country within those continents. This will allow me to visualize how life expectancy varies by region.\n",
+        "res_data": [
+            {
+                "hovertemplate": "continent=%{x}<br>avg(lifeExp)=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Europe",
+                    "Africa",
+                    "Americas",
+                    "Oceania",
+                    "Asia"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "4AuTqYJpU0Ac0K9ELGdLQMoCJnDrZlJANV66SQwuVEDu9+l+n65RQA=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                "Africa",
+                "Asia",
+                "Americas",
+                "Europe",
+                "Oceania"
+            ],
+            "y": [
+                54.806038461538456,
+                70.72848484848485,
+                73.60812,
+                77.64859999999999,
+                80.7195
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "scatter"
+        }
+    },
+    {
+        "index": 43,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the relationship between GDP and life expectancy in 5 Americas countries with the lowest GDP, I need to first filter the data for these countries and then calculate their average GDP per capita. Next, I will create a scatter plot using Plotly Express to visualize the relationship between GDP and life expectancy.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for 5 Americas countries with lowest GDP (assuming top 5 by GDP per capita)\ndf_lowest_gdp = df.sort_values('gdpPercap').head(5)\n\n# Create scatter plot with Plotly Express\nfig = px.scatter(df_lowest_gdp, x='gdpPercap', y='lifeExp', title='Relationship between GDP and Life Expectancy in 5 Americas Countries with Lowest GDP')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 44,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "pie",
+        "hit": 0,
+        "score": 0.0,
+        "reasoning": "\nTo analyze the distribution of volcano types in the United States, I first need to filter the data for US-based volcanoes and then group them by their type. Since there are different types of volcanoes (Shield, Stratovolcano, Maar), a bar chart is suitable to visualize how many volcanoes fall into each category.\n",
+        "res_data": [
+            {
+                "hovertemplate": "Type=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "Maar",
+                    "Stratovolcanoes",
+                    "Tuff rings",
+                    "Unknown",
+                    "Lava dome",
+                    "Stratovolcano",
+                    "Shield volcano",
+                    "Complex volcano",
+                    "Fissure vent",
+                    "Volcanic field",
+                    "Submarine volcano",
+                    "Submarine volcano?",
+                    "Caldera",
+                    "Cinder cone"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i1",
+                    "bdata": "BAEBAgZWFwIBERECBRE="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "type": "pie",
+            "domain": {
+                "x": [
+                    0.0,
+                    1.0
+                ],
+                "y": [
+                    0.0,
+                    1.0
+                ]
+            },
+            "labels": [
+                "Stratovolcano",
+                "Submarine volcano",
+                "Caldera",
+                "Cinder cone",
+                "Maar",
+                "Lava dome",
+                "Shield volcano",
+                "Volcanic field",
+                "Tuff rings",
+                "Unknown",
+                "Fissure vent",
+                "Complex volcano",
+                "Stratovolcanoes",
+                "Submarine volcano?"
+            ],
+            "values": [
+                86,
+                17,
+                5,
+                17,
+                4,
+                6,
+                23,
+                17,
+                1,
+                2,
+                1,
+                2,
+                1,
+                2
+            ]
+        }
+    },
+    {
+        "index": 45,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "histogram",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo visualize the distribution of volcano elevations in Mexico, I need to filter the data for Mexican volcanoes and then create a histogram to show how the elevation values are distributed. Since the data is numerical and continuous, this type of visualization will help identify common ranges and outliers.\n",
+        "res_data": [
+            {
+                "bingroup": "x",
+                "hovertemplate": "Volcano Elevation (m)=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "nbinsx": 50,
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "i4",
+                    "bdata": "IAMAAEwBAADoCAAAWg8AAH4EAAC6EAAACg8AAAwDAAC4AQAAZA8AABsIAACsDQAATAQAAE4MAABuFAAAwAMAADwPAAA8DwAAlxEAAOwJAAAUDwAA0AcAACsWAAAQDgAAFA8AALAEAAAyFQAA3wAAAFAFAAC0AAAAcgYAAAQBAAAkCQAAJAkAAJ0NAAAaBAAADhAAAFISAADSAAAAlAcAAAAAAAA="
+                },
+                "xaxis": "x",
+                "yaxis": "y",
+                "type": "histogram"
+            }
+        ],
+        "gt": {
+            "x": [
+                800.0,
+                332.0,
+                3850.0,
+                1150.0,
+                3930.0,
+                780.0,
+                440.0,
+                2280.0,
+                4282.0,
+                2075.0,
+                3940.0,
+                1100.0,
+                3500.0,
+                960.0,
+                3900.0,
+                3150.0,
+                5230.0,
+                4503.0,
+                3860.0,
+                2540.0,
+                5675.0,
+                2000.0,
+                3600.0,
+                5426.0,
+                1200.0,
+                223.0,
+                180.0,
+                1650.0,
+                3485.0,
+                2340.0,
+                260.0,
+                1360.0,
+                4110.0,
+                1050.0,
+                1940.0,
+                4690.0,
+                210.0,
+                0.0
+            ],
+            "y": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "histogram"
+        }
+    },
+    {
+        "index": 46,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "scatter",
+        "hit": 1,
+        "score": 0.6,
+        "reasoning": "\nTo visualize the relationship between latitude and elevation for the 5 southernmost volcanoes, I need to filter the data for these specific volcanoes. Since the data is numerical and continuous, a scatter plot with latitude on the x-axis and elevation on the y-axis is suitable to visualize how elevation values are distributed in relation to their latitudes.\n",
+        "res_data": [
+            {
+                "customdata": [
+                    [
+                        "Aguilera",
+                        "Chile"
+                    ],
+                    [
+                        "Amsterdam Island",
+                        "Indian Ocean"
+                    ],
+                    [
+                        "Andrus",
+                        "Antarctica"
+                    ],
+                    [
+                        "Antillanca Group",
+                        "Chile"
+                    ],
+                    [
+                        "Antipodes Island",
+                        "New Zealand"
+                    ],
+                    [
+                        "Antofagasta de la Sierra",
+                        "Argentina"
+                    ],
+                    [
+                        "Antofagasta de la Sierra",
+                        "Argentina"
+                    ],
+                    [
+                        "Antofalla",
+                        "Argentina"
+                    ],
+                    [
+                        "Antuco",
+                        "Chile"
+                    ],
+                    [
+                        "Arenales",
+                        "Chile"
+                    ],
+                    [
+                        "Atuel, Caldera del",
+                        "Argentina"
+                    ],
+                    [
+                        "Auckland Field",
+                        "New Zealand"
+                    ],
+                    [
+                        "Azul, Cerro [Quizapu]",
+                        "Chile"
+                    ],
+                    [
+                        "Bayo, Cerro",
+                        "Argentina"
+                    ],
+                    [
+                        "Berlin",
+                        "Antarctica"
+                    ],
+                    [
+                        "Blanca, Loma",
+                        "Chile"
+                    ],
+                    [
+                        "Boomerang Seamount",
+                        "Antarctica"
+                    ],
+                    [
+                        "Bouvet",
+                        "Bouvet I."
+                    ],
+                    [
+                        "Bridgeman Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Brimstone Island",
+                        "New Zealand"
+                    ],
+                    [
+                        "Bristol Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Brothers",
+                        "New Zealand"
+                    ],
+                    [
+                        "Buckle Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Burney, Monte",
+                        "Chile"
+                    ],
+                    [
+                        "Caburga",
+                        "Chile"
+                    ],
+                    [
+                        "Calabozos",
+                        "Chile"
+                    ],
+                    [
+                        "Calbuco",
+                        "Chile"
+                    ],
+                    [
+                        "Callaqui",
+                        "Chile"
+                    ],
+                    [
+                        "Candlemas Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Carran-Los Venados",
+                        "Chile"
+                    ],
+                    [
+                        "Cayute-La Vigueria",
+                        "Chile"
+                    ],
+                    [
+                        "Cayutu\ufffd-La Viguer\ufffda",
+                        "Chile"
+                    ],
+                    [
+                        "Chaiten",
+                        "Chile"
+                    ],
+                    [
+                        "Chapulul, Cerro",
+                        "Chile"
+                    ],
+                    [
+                        "Chillan, Nevados de",
+                        "Chile"
+                    ],
+                    [
+                        "Clark",
+                        "New Zealand"
+                    ],
+                    [
+                        "Cochons, Ile Aux",
+                        "Indian Ocean"
+                    ],
+                    [
+                        "Cook, Isla",
+                        "Chile"
+                    ],
+                    [
+                        "Copahue",
+                        "Chile"
+                    ],
+                    [
+                        "Copiapo",
+                        "Chile"
+                    ],
+                    [
+                        "Corcovado",
+                        "Chile"
+                    ],
+                    [
+                        "Cordon del Azufre",
+                        "Argentina"
+                    ],
+                    [
+                        "Crater Basalt Volc Field",
+                        "Argentina"
+                    ],
+                    [
+                        "Curtis Island",
+                        "New Zealand"
+                    ],
+                    [
+                        "C\ufffdndor, Cerro el",
+                        "Argentina"
+                    ],
+                    [
+                        "Deception Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Descabezado Grande",
+                        "Chile"
+                    ],
+                    [
+                        "Domuyo",
+                        "Argentina"
+                    ],
+                    [
+                        "Easter Island",
+                        "Chile"
+                    ],
+                    [
+                        "Egmont",
+                        "New Zealand"
+                    ],
+                    [
+                        "Erebus",
+                        "Antarctica"
+                    ],
+                    [
+                        "Escorial, Cerro",
+                        "Argentina"
+                    ],
+                    [
+                        "Est, Ile de l'",
+                        "French Southern & Antarctic Lands"
+                    ],
+                    [
+                        "Giggenbach",
+                        "New Zealand"
+                    ],
+                    [
+                        "Healy",
+                        "New Zealand"
+                    ],
+                    [
+                        "Heard",
+                        "Heard I. & McDonald Is."
+                    ],
+                    [
+                        "Hodson",
+                        "Antarctica"
+                    ],
+                    [
+                        "Hornopiren",
+                        "Chile"
+                    ],
+                    [
+                        "Huanquihue Group",
+                        "Argentina"
+                    ],
+                    [
+                        "Hudson Mountains",
+                        "Antarctica"
+                    ],
+                    [
+                        "Hudson, Cerro",
+                        "Chile"
+                    ],
+                    [
+                        "Huequi",
+                        "Chile"
+                    ],
+                    [
+                        "Kaikohe-Bay of Islands",
+                        "New Zealand"
+                    ],
+                    [
+                        "Kerguelen Islands",
+                        "French Southern & Antarctic Lands"
+                    ],
+                    [
+                        "Lanin",
+                        "Argentina"
+                    ],
+                    [
+                        "Lastarria",
+                        "Chile"
+                    ],
+                    [
+                        "Lautaro",
+                        "Chile"
+                    ],
+                    [
+                        "Leskov Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Lindenberg Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Llaima",
+                        "Chile"
+                    ],
+                    [
+                        "Longavi, Nevado de",
+                        "Chile"
+                    ],
+                    [
+                        "Lonquimay",
+                        "Chile"
+                    ],
+                    [
+                        "Maca",
+                        "Chile"
+                    ],
+                    [
+                        "Macauley Island",
+                        "New Zealand"
+                    ],
+                    [
+                        "Macdonald",
+                        "Antarctica"
+                    ],
+                    [
+                        "Maipo",
+                        "Argentina"
+                    ],
+                    [
+                        "Marion Island",
+                        "South Africa"
+                    ],
+                    [
+                        "Maroa",
+                        "New Zealand"
+                    ],
+                    [
+                        "Maule, Laguna del",
+                        "Chile"
+                    ],
+                    [
+                        "Mayor Island",
+                        "New Zealand"
+                    ],
+                    [
+                        "McDonald Islands",
+                        "Indian Ocean"
+                    ],
+                    [
+                        "Melbourne",
+                        "Antarctica"
+                    ],
+                    [
+                        "Melimoyu",
+                        "Chile"
+                    ],
+                    [
+                        "Mentolat",
+                        "Chile"
+                    ],
+                    [
+                        "Michael",
+                        "Antarctica"
+                    ],
+                    [
+                        "Minchinmavida",
+                        "Chile"
+                    ],
+                    [
+                        "Mocho-Choshuenco",
+                        "Chile"
+                    ],
+                    [
+                        "Mondaca",
+                        "Chile"
+                    ],
+                    [
+                        "Monowai Seamount",
+                        "New Zealand"
+                    ],
+                    [
+                        "Montagu Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Morning, Mt.",
+                        "Antarctica"
+                    ],
+                    [
+                        "Nevada, Sierra",
+                        "Argentina"
+                    ],
+                    [
+                        "Newer Volcanics Prov",
+                        "Australia"
+                    ],
+                    [
+                        "Ngauruhoe",
+                        "New Zealand"
+                    ],
+                    [
+                        "Nightingale Island",
+                        "United Kingdom"
+                    ],
+                    [
+                        "Ojos del Salado, Nevados",
+                        "Argentina"
+                    ],
+                    [
+                        "Okataina",
+                        "New Zealand"
+                    ],
+                    [
+                        "Osorno",
+                        "Chile"
+                    ],
+                    [
+                        "Palei-Aike Volc Field",
+                        "Chile"
+                    ],
+                    [
+                        "Palena Volc Group",
+                        "Chile"
+                    ],
+                    [
+                        "Palomo",
+                        "Chile"
+                    ],
+                    [
+                        "Pantoja, Cerro",
+                        "Chile"
+                    ],
+                    [
+                        "Paulet",
+                        "Antarctica"
+                    ],
+                    [
+                        "Payun Matru, Cerro",
+                        "Argentina"
+                    ],
+                    [
+                        "Peinado",
+                        "Argentina"
+                    ],
+                    [
+                        "Penguin Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Peter I Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Planchon-Peteroa",
+                        "Chile"
+                    ],
+                    [
+                        "Pleiades, The",
+                        "Antarctica"
+                    ],
+                    [
+                        "Possession, Ile de la",
+                        "Indian Ocean"
+                    ],
+                    [
+                        "Prince Edward Island",
+                        "Indian Ocean"
+                    ],
+                    [
+                        "Protector Shoal",
+                        "Antarctica"
+                    ],
+                    [
+                        "Puesto Cortaderas",
+                        "Argentina"
+                    ],
+                    [
+                        "Puesto Cortaderas",
+                        "Argentina"
+                    ],
+                    [
+                        "Puntiagudo-Cordon Cenizo",
+                        "Chile"
+                    ],
+                    [
+                        "Puyehue",
+                        "Chile"
+                    ],
+                    [
+                        "Puyuhuapi",
+                        "Chile"
+                    ],
+                    [
+                        "Quetrupillan",
+                        "Chile"
+                    ],
+                    [
+                        "Raoul Island",
+                        "New Zealand"
+                    ],
+                    [
+                        "Reclus",
+                        "Chile"
+                    ],
+                    [
+                        "Reporoa",
+                        "New Zealand"
+                    ],
+                    [
+                        "Resago, Volcan",
+                        "Chile"
+                    ],
+                    [
+                        "Risco Plateado",
+                        "Argentina"
+                    ],
+                    [
+                        "Robinson Crusoe",
+                        "Chile"
+                    ],
+                    [
+                        "Robledo",
+                        "Argentina"
+                    ],
+                    [
+                        "Royal Society Range",
+                        "Antarctica"
+                    ],
+                    [
+                        "Ruapehu",
+                        "New Zealand"
+                    ],
+                    [
+                        "Rumble II West",
+                        "New Zealand"
+                    ],
+                    [
+                        "Rumble III",
+                        "New Zealand"
+                    ],
+                    [
+                        "Rumble IV",
+                        "New Zealand"
+                    ],
+                    [
+                        "Rumble V",
+                        "New Zealand"
+                    ],
+                    [
+                        "R\ufffdo Murta",
+                        "Chile"
+                    ],
+                    [
+                        "San Felix",
+                        "Chile"
+                    ],
+                    [
+                        "San Jose",
+                        "Argentina"
+                    ],
+                    [
+                        "San Pedro-Pellado",
+                        "Chile"
+                    ],
+                    [
+                        "Seal Nunataks Group",
+                        "Antarctica"
+                    ],
+                    [
+                        "Siple",
+                        "Antarctica"
+                    ],
+                    [
+                        "Sollipulli",
+                        "Chile"
+                    ],
+                    [
+                        "St. Paul",
+                        "Indian Ocean"
+                    ],
+                    [
+                        "Sturge Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Takahe",
+                        "Antarctica"
+                    ],
+                    [
+                        "Tangaroa",
+                        "New Zealand"
+                    ],
+                    [
+                        "Taupo",
+                        "New Zealand"
+                    ],
+                    [
+                        "Thompson Island",
+                        "Atlantic Ocean"
+                    ],
+                    [
+                        "Thule Islands",
+                        "Antarctica"
+                    ],
+                    [
+                        "Tinguiririca",
+                        "Chile"
+                    ],
+                    [
+                        "Tipas",
+                        "Argentina"
+                    ],
+                    [
+                        "Tipas",
+                        "Argentina"
+                    ],
+                    [
+                        "Tolguaca",
+                        "Chile"
+                    ],
+                    [
+                        "Tolguaca",
+                        "Chile"
+                    ],
+                    [
+                        "Toney Mountain",
+                        "Antarctica"
+                    ],
+                    [
+                        "Tongariro",
+                        "New Zealand"
+                    ],
+                    [
+                        "Tristan da Cunha",
+                        "Atlantic Ocean"
+                    ],
+                    [
+                        "Trocon",
+                        "Argentina"
+                    ],
+                    [
+                        "Tromen",
+                        "Argentina"
+                    ],
+                    [
+                        "Tronador",
+                        "Chile"
+                    ],
+                    [
+                        "Tupungatito",
+                        "Chile"
+                    ],
+                    [
+                        "Unnamed",
+                        "New Zealand"
+                    ],
+                    [
+                        "Unnamed",
+                        "Chile"
+                    ],
+                    [
+                        "Unnamed",
+                        "Pacific Ocean"
+                    ],
+                    [
+                        "Unnamed",
+                        "Pacific Ocean"
+                    ],
+                    [
+                        "Unnamed",
+                        "Pacific Ocean"
+                    ],
+                    [
+                        "Unnamed",
+                        "Pacific Ocean"
+                    ],
+                    [
+                        "Unnamed",
+                        "Argentina"
+                    ],
+                    [
+                        "Unnamed",
+                        "Antarctica"
+                    ],
+                    [
+                        "Unnamed",
+                        "Antarctica"
+                    ],
+                    [
+                        "Unnamed",
+                        "Chile"
+                    ],
+                    [
+                        "Viedma, Volcan",
+                        "Argentina"
+                    ],
+                    [
+                        "Villarrica",
+                        "Chile"
+                    ],
+                    [
+                        "Volcanico, Cerro",
+                        "Argentina"
+                    ],
+                    [
+                        "Volcano W",
+                        "New Zealand"
+                    ],
+                    [
+                        "Waesche",
+                        "Antarctica"
+                    ],
+                    [
+                        "Whangarei",
+                        "New Zealand"
+                    ],
+                    [
+                        "White Island",
+                        "New Zealand"
+                    ],
+                    [
+                        "Yanteles",
+                        "Chile"
+                    ],
+                    [
+                        "Yanteles, Cerro",
+                        "Chile"
+                    ],
+                    [
+                        "Yate",
+                        "Chile"
+                    ],
+                    [
+                        "Young Island",
+                        "Antarctica"
+                    ],
+                    [
+                        "Zavodovski",
+                        "Antarctica"
+                    ]
+                ],
+                "hovertemplate": "Longitude=%{x}<br>Elev=%{y}<br>Volcano Name=%{customdata[0]}<br>Country=%{customdata[1]}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "symbol": "circle"
+                },
+                "mode": "markers",
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "f8",
+                    "bdata": "hetRuB51UsDhehSuR2FTQMP1KFyPimDAbxKDwMoJUsAGgZVDi1hmQAAAAAAA4FDAAAAAAADgUMAAAAAAAABRwHWTGARW1lHA9P3UeOleUsAzMzMzM4NRwKRwPQrX22VAYhBYObSwUcCF61G4HiVRwAAAAAAAAGHAf2q8dJPAUcDNzMzMzHRTQM3MzMzMzApAAAAAAABgTMA9CtejcF1mwBSuR+F6lDrAZmZmZmZiZkAAAAAAAGhkQJqZmZmZWVLAhetRuB71UcA5tMh2vp9RwJ7vp8ZLJ1LAzczMzMzcUcDsUbgehas6wBSuR+F6BFLA4XoUrkcRUsAMAiuHFhFSwNNNYhBYKVLAhetRuB7FUcDjpZvEINhRwAIrhxbZOmZAPQrXo3AdSUDhehSuR5FRwHsUrkfhylHAuB6F61FIUcAzMzMzMzNSwOF6FK5HIVHAwcqhRbaLUcDLoUW281FmwGZmZmZmFlHAMzMzMzNTTsAAAAAAALBRwHsUrkfhmlHAjZduEoNYW8AK16NwPcJlQD0K16Nw5WRASOF6FK4XUcCamZmZmRlKQIlBYOXQVmbAQmDl0CJfZkBGtvP91GBSQGZmZmZmJjvA3SQGgZUbUsAzMzMzM+NRwHsUrkfh2ljArkfhehQ+UsCiRbbz/SRSwM3MzMzMvGVAAAAAAABgUUAAAAAAAOBRwAAAAAAAIFHAMzMzMzNjUsDhehSuRyE8wGZmZmZmBk7ALbKd76fuUcD8qfHSTcpRwIXrUbge5VHAzczMzMxMUsDXo3A9Ck9mwAAAAAAAiGHAWmQ73091UcAAAAAAAOBCQMP1KFyPAmZAhetRuB6lUcAAAAAAAAhmQGZmZmZmJlJAZmZmZmaWZEC4HoXrUThSwIXrUbgeRVLAMzMzMzNzOsDsUbgehRtSwH0/NV66AVLAMzMzMzOzUcC8dJMYBCZmwGiR7Xw/VTrAkxgEVg5xZECF61G4HiVRwAAAAAAA0GFAXI/C9Sj0ZUCe76fGS/cowFK4HoXrIVHAAAAAAAAQZkBkO99PjR9SwAAAAAAAgFHAAAAAAAAgUsB7FK5H4ZJRwM3MzMzM/FHAw/UoXI/iS8DNzMzMzExRwJqZmZmZCVHA16NwPQr3TMCF61G4HqVWwBSuR+F6pFHAAAAAAACwZEBxPQrXo9BJQJqZmZmZ+UJAFK5H4XoUPMBI4XoUrmdRwHNoke18Z1HAN4lBYOUQUsBzaJHtfAdSwFK4HoXrIVLAzczMzMzsUcA9CtejcD1mwM3MzMzMbFLAw/UoXI8KZkB7FK5H4bpRwAAAAAAAgFHAZmZmZma2U8DZzvdT4+1QwDMzMzMzc2RACtejcD3yZUC+nxov3VBmQJ7vp8ZLT2ZAmpmZmZlBZkD8qfHSTUZmQKabxCCwKlLASOF6FK4HVMDFILByaHlRwHWTGARWtlHAZmZmZmYGTsB7FK5H4apfwOF6FK5H4VHAUrgehethU0DD9Shcj5pkQIXrUbgeBVzAN4lBYOVAZkAAAAAAAABmQAAAAAAAABZAH4XrUbheO8BKDAIrh5ZRwDMzMzMzI1HAMzMzMzMjUcDhehSuR+lRwOF6FK5H6VHAhetRuB71XMAGgZVDi/RlQI/C9ShcjyjAmpmZmZm5UcBSuB6F64FRwHE9Ctej+FHAMzMzMzNzUcCkcD0K1ztmwFK4HoXrsVPAmpmZmZmJYcBcj8L1KBRlQJqZmZmZiWHA001iEFjlYcAMAiuHFhFRwMP1KFyPkmRAAAAAAABgZECF61G4HjVTwFK4HoXrUVLA7FG4HoX7UcCamZmZmelRwGDl0CLbZWbAuB6F61G4X8BxPQrXo8hlQPYoXI/CJWZAMzMzMzMzUsCF61G4HjVSwNNNYhBYGVLAZmZmZmZOZEBSuB6F65E7wA=="
+                },
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "AAAAAAAAAAAAAAAAAIiLQAAAAAAARKdAAAAAAAAYn0AAAAAAACB5QAAAAAAAQK9AAAAAAABAr0AAAAAAANS3QAAAAAAARqdAAAAAAADaqkAAAAAAAEW0QAAAAAAAQHBAAAAAAACYrUAAAAAAABm1QAAAAAAALKtAAAAAAAC4oUAAAAAAAFCEwAAAAAAAYIhAAAAAAAAAbkAAAAAAAECfwAAAAAAAMJFAAAAAAAAYlcAAAAAAAFyTQAAAAAAAeJtAAAAAAAAYj0AAAAAAAGirQAAAAAAATJ9AAAAAAAC4qEAAAAAAADCBQAAAAAAAaJFAAAAAAACgf0AAAAAAAKB/QAAAAAAAEI5AAAAAAAC+oEAAAAAAABipQAAAAAAA4IrAAAAAAAA4iEAAAAAAAMBiQAAAAAAAKqdAAAAAAACkt0AAAAAAAPihQAAAAAAAV7VAAAAAAAA8lUAAAAAAACBhQAAAAAAAhLlAAAAAAAAAgkAAAAAAAOKuQAAAAAAAZbJAAAAAAADwf0AAAAAAAKyjQAAAAAAApK1AAAAAAABHtUAAAAAAAAiRQAAAAAAAQFDAAAAAAACgjkAAAAAAAHKlQAAAAAAAaI9AAAAAAACQmEAAAAAAAFCUQAAAAAAAaIdAAAAAAADEnUAAAAAAAJiUQAAAAAAAQHhAAAAAAADAnEAAAAAAAEatQAAAAAAAQbZAAAAAAABoqkAAAAAAAMBnQAAAAAAAAHdAAAAAAABqqEAAAAAAAFSpQAAAAAAAYqZAAAAAAAAgp0AAAAAAAMBtQAAAAAAAAEnAAAAAAACQtEAAAAAAADiTQAAAAAAAEJJAAAAAAAAoqEAAAAAAADB2QAAAAAAAQGdAAAAAAABYpUAAAAAAAMCiQAAAAAAA8JlAAAAAAADwjkAAAAAAAMiiQAAAAAAA7KJAAAAAAAAAoEAAAAAAAABZwAAAAAAAaJVAAAAAAABGpUAAAAAAAO+3QAAAAAAAmI9AAAAAAADmoUAAAAAAANB2QAAAAAAA57pAAAAAAABckUAAAAAAALikQAAAAAAAQG9AAAAAAAAAAAAAAAAAAPyyQAAAAAAAgKBAAAAAAAAQdkAAAAAAANasQAAAAAAAbLZAAAAAAACAZkAAAAAAAKCZQAAAAAAAC7BAAAAAAADAp0AAAAAAADCNQAAAAAAAAIVAAAAAAAAAO8AAAAAAAFCOQAAAAAAAUI5AAAAAAAB6o0AAAAAAAHihQAAAAAAA4G9AAAAAAABwokAAAAAAACCAQAAAAAAAAAAAAAAAAACAgkAAAAAAADiYQAAAAAAAh7NAAAAAAADQjEAAAAAAADCxQAAAAAAAcKdAAAAAAADapUAAAAAAAMCSQAAAAAAAgGHAAAAAAAAgfMAAAAAAAOCFwAAAAAAAAPh/AAAAAADgZkAAAAAAAOC2QAAAAAAASqxAAAAAAAAAd0AAAAAAAEyoQAAAAAAA1KFAAAAAAADAcEAAAAAAADySQAAAAAAACKtAAAAAAADAgkAAAAAAAMCHQAAAAAAAAAAAAAAAAADMkEAAAAAAALiwQAAAAAAABLpAAAAAAAAEukAAAAAAAOylQAAAAAAA7KVAAAAAAAAWrEAAAAAAAOieQAAAAAAAGKBAAAAAAACIo0AAAAAAABSvQAAAAAAARqtAAAAAAABwt0AAAAAAAICBwAAAAAAAAAAAAAAAAABAj8AAAAAAAMCiwAAAAAAAQI/AAAAAAAAA+H8AAAAAAAD4fwAAAAAAVqdAAAAAAABAf8AAAAAAABCEwAAAAAAAUJRAAAAAAAA+pkAAAAAAAAAAAAAAAAAAIIzAAAAAAAC4qUAAAAAAANB4QAAAAAAAEHRAAAAAAADon0AAAAAAAASgQAAAAAAAFqFAAAAAAADwlEAAAAAAADiBQA=="
+                },
+                "yaxis": "y",
+                "type": "scatter"
+            }
+        ],
+        "gt": {
+            "x": [
+                -78.5,
+                -78.25,
+                -77.53,
+                -77.17,
+                -76.83
+            ],
+            "y": [
+                2723.0,
+                3000.0,
+                3794.0,
+                3292.0,
+                -500.0
+            ],
+            "type": "scatter",
+            "xaxis": "x",
+            "yaxis": "y"
+        }
+    },
+    {
+        "index": 47,
+        "success": 0,
+        "model_output": "<thinking>\nTo compare the number of volcanoes in the top 5 countries, I need to first filter the data for each country and count the number of volcanoes. Then, I can sort these counts in descending order and plot a bar chart to visualize the comparison.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Filter for top 5 countries with most volcanoes\ndf_top_countries = df.groupBy('Country').count().orderBy(f.col('count').desc()).limit(5)\n\n# Create bar chart with Plotly\nfig = px.bar(df_top_countries, x='Country', y='count', title='Number of Volcanoes in Top 5 Countries')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 48,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the trend of volcano elevations in the 5 highest volcanoes in Mexico, I first need to filter the data for Mexican volcanoes and then sort them by elevation. Since the data is numerical and continuous, a line chart is suitable to visualize how elevation values change over time.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for Mexican volcanoes and sort by elevation in descending order\ndf_mexico = df.filter(df['Country'] == 'Mexico').sort_values('Elev', ascending=False)\n\n# Select the top 5 highest volcanoes\ndf_top_5 = df_mexico.head(5)\n\n# Create line chart with Plotly\nfig = px.line(df_top_5, x='Number', y='Elev', title='Trend of Volcano Elevations in Mexico')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 49,
+        "success": 1,
+        "chart_type": "scatter",
+        "expected_chart_type": "histogram",
+        "hit": 0,
+        "score": 0.5,
+        "reasoning": "\nTo visualize the distribution of volcanoes with elevations above 4000 meters, I need to filter the data for these high-elevation volcanoes and then create a scatter plot using Plotly. This will allow me to see how the volcano elevations are distributed across different countries and regions.\n",
+        "res_data": [
+            {
+                "hovertemplate": "<b>%{hovertext}</b><br><br>Longitude=%{x}<br>Latitude=%{y}<br>Elev=%{marker.size}<extra></extra>",
+                "hovertext": [
+                    "Acamarachi",
+                    "Andahua Valley",
+                    "Antisana",
+                    "Antofalla",
+                    "Aracar",
+                    "Aracar",
+                    "Aragats",
+                    "Ararat",
+                    "Atacazo",
+                    "Atuel, Caldera del",
+                    "Azufral, Volcan",
+                    "Bayo, Cerro",
+                    "Bona-Churchill",
+                    "Cameroon, Mt.",
+                    "Casiri, Nevados",
+                    "Cayambe",
+                    "Cayambe",
+                    "Chacana",
+                    "Chachani, Nevado",
+                    "Chachani, Nevado",
+                    "Chiliques",
+                    "Chiliques",
+                    "Chimborazo",
+                    "Cofre de Perote",
+                    "Colachi",
+                    "Copiapo",
+                    "Cordon Chalviri",
+                    "Cordon de Puntas Negras",
+                    "Cordon del Azufre",
+                    "Coropuna",
+                    "Cotopaxi",
+                    "Cumbal",
+                    "C\ufffdndor, Cerro el",
+                    "Damavand",
+                    "Domuyo",
+                    "Dona Juana",
+                    "Elbrus",
+                    "Escorial, Cerro",
+                    "Firura, Nevados",
+                    "Galeras",
+                    "Guagua Pichincha",
+                    "Guallatiri",
+                    "Guayaques",
+                    "Huaynaputina",
+                    "Huila",
+                    "Illiniza",
+                    "Irruputuncu",
+                    "Isluga",
+                    "Iztaccihuatl",
+                    "Kamen",
+                    "Karisimbi",
+                    "Kasbek",
+                    "Kilimanjaro",
+                    "Kliuchevskoi",
+                    "Kunlun Volc Group",
+                    "Lascar",
+                    "Lastarria",
+                    "Lexone",
+                    "Licancabur",
+                    "Llullaillaco",
+                    "Maipo",
+                    "Malinche, La",
+                    "Mauna Kea",
+                    "Mauna Loa",
+                    "Meru",
+                    "Misti, El",
+                    "Mojanda",
+                    "Mojanda",
+                    "Muhavura",
+                    "Negrillar, La",
+                    "Negro de Mayasquer, Cerro",
+                    "Nevada, Sierra",
+                    "Nuevo Mundo",
+                    "Ojos del Salado, Nevados",
+                    "Olca-Paruma",
+                    "Ollague",
+                    "Orizaba, Pico de",
+                    "Overo, Cerro",
+                    "Palomo",
+                    "Pampa Luxsar",
+                    "Patilla Pata",
+                    "Peinado",
+                    "Petacas",
+                    "Pina, Cerro",
+                    "Planchon-Peteroa",
+                    "Popocatepetl",
+                    "Pular",
+                    "Purace",
+                    "Purico Complex",
+                    "Putana",
+                    "Rainier",
+                    "Risco Plateado",
+                    "Robledo",
+                    "Ruiz",
+                    "Sabalan",
+                    "Sabancaya",
+                    "Sabancaya",
+                    "Sairecabur",
+                    "San Jose",
+                    "San Pedro",
+                    "Sanford",
+                    "Sangay",
+                    "Santa Isabel",
+                    "Shasta",
+                    "Socompa",
+                    "Sotara",
+                    "Suphan Dagi",
+                    "Tacana",
+                    "Tacora",
+                    "Taftan",
+                    "Tajumulco",
+                    "Ticsani",
+                    "Tinguiririca",
+                    "Tipas",
+                    "Tipas",
+                    "Tolima",
+                    "Toluca, Nevado de",
+                    "Tungurahua",
+                    "Tupungatito",
+                    "Tutupaca",
+                    "Tuzgle, Cerro",
+                    "Ubinas",
+                    "Unnamed",
+                    "Wrangell",
+                    "Yucamane",
+                    "Yumia, Cerro"
+                ],
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "size": {
+                        "dtype": "i4",
+                        "bdata": "nhcAAGkSAAB5FgAA1BcAAMIXAADCFwAA+g8AAC0UAABvEQAARRQAAOYPAAAZFQAAjRMAAP8PAAASFgAAnhYAAJ4WAAAjEgAAqRcAAKkXAACSFgAAkhYAAKYYAAC6EAAA/xUAAKQXAAD3FQAA3BYAAFcVAADpGAAAFxcAAJwSAACEGQAAJhYAAGUSAAA2EAAAARYAAEcVAAB6FQAAtBAAALASAAC3FwAA3hUAAPISAAD1FAAAgBQAACsUAAC6EwAAbhQAAOkRAACbEQAAuhMAAAcXAADjEgAAsBYAANgVAABBFgAA3BQAABwXAABTGgAAkBQAAJcRAABuEAAAShAAANURAAC+FgAApxAAAKcQAAAfEAAADRAAAF0RAADvFwAAPhUAAOcaAAAfFQAA7BYAACsWAADLEQAA/BIAAKcVAAC0FAAAbBYAANYPAADFDwAACxAAADIVAABZGAAAKhIAAEcWAAACFwAAKBEAAIcTAAAwEQAAyRQAAMsSAABPFwAATxcAAFMXAADgFgAAARgAAFUTAABuFAAAVhMAAN0QAACjFwAAMBEAAFIRAAAOEAAAXBcAANIPAAB8EAAAIBUAALgQAAAEGgAABBoAAFAUAABSEgAAnxMAAHAXAAC3FgAAfBUAACgWAAAYFQAA3RAAAK4VAADSDwAA"
+                    },
+                    "sizemode": "area",
+                    "sizeref": 17.2175,
+                    "symbol": "circle"
+                },
+                "mode": "markers",
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "f8",
+                    "bdata": "SOF6FK7nUMCF61G4HhVSwBsv3SQGiVPAAAAAAAAAUcDhehSuR/FQwAwCK4cW8VDAj8L1KFwPRkCkcD0K1yNGQHNoke18p1PAMzMzMzODUcDsUbgehWtTwIXrUbgeJVHAAAAAAAC4YcDXo3A9ClciQBSuR+F6dFHAyXa+nxp/U8DJdr6fGn9TwAAAAAAAkFPAUrgehevhUcBSuB6F6+FRwM3MzMzM7FDAzczMzMzsUMBcj8L1KLRTwJqZmZmZSVjAmpmZmZnpUMC4HoXrUUhRwEjhehSu51DAUrgehevhUMDhehSuRyFRwJqZmZmZKVLAlkOLbOebU8C4HoXrUXhTwGZmZmZmFlHAy6FFtvMNSkB7FK5H4ZpRwHsUrkfhOlPAmpmZmZk5RUBI4XoUrhdRwLgehetRKFLASOF6FK5XU8CDwMqhRaZTwHsUrkfhSlHAhetRuB7lUMBmZmZmZrZRwDMzMzMzA1PABFYOLbKtU8AzMzMzMyNRwIXrUbgeNVHADAIrhxapWMDl0CLb+RJkQDMzMzMzcz1AAAAAAABARkDNzMzMzKxCQCPb+X5qFGRAzczMzMwMVEAfhetRuO5QwAAAAAAAIFHAH4XrUbheUcC4HoXrUfhQwFK4HoXrIVHAWmQ73091UcBSuB6F64FYwNejcD0Kb2PA+n5qvHRzY8AAAAAAAGBCQBkEVg4t2lHA4XoUrkeRU8AMAiuHFpFTwOxRuB6Fqz1AZmZmZmYmUcAEVg4tsn1TwIXrUbgeJVHA9P3UeOmeUMBSuB6F6yFRwB+F61G4HlHA7FG4HoULUcD+1HjpJlFYwHsUrkfh6lDAexSuR+GSUcDNzMzMzAxRwFK4HoXrQVHAmpmZmZkJUcBSuB6F6zFTwJqZmZmZKVHAFK5H4XqkUcArhxbZzqdYwDMzMzMzA1HAmpmZmZkZU8AAAAAAAPBQwEjhehSu91DAjZduEoNwXsAAAAAAAIBRwNnO91Pj7VDA+FPjpZvUUsBMN4lBYPVHQGZmZmZm9lHAZmZmZmb2UcC4HoXrUfhQwMUgsHJoeVHAmpmZmZkZUcBcj8L1KARiwIXrUbgelVPASOF6FK7XUsDNzMzMzIxewAAAAAAAEFHAhetRuB4lU8ApXI/C9WhFQLpJDAIrB1fA4XoUrkdxUcDNzMzMzMxOQG8Sg8DK+VbArkfhehSmUcBKDAIrh5ZRwDMzMzMzI1HAMzMzMzMjUcCF61G4HtVSwI2XbhKD8FjAPzVeukmcU8AzMzMzM3NRwPT91HjpllHA9P3UeOmeUMBvEoPAyrlRwM3MzMzM7FZAcT0K16MAYsDNzMzMzIxRwAAAAAAA4FDA"
+                },
+                "xaxis": "x",
+                "y": {
+                    "dtype": "f8",
+                    "bdata": "zczMzMxMN8DXo3A9CtcuwGIQWDm0yN6/SOF6FK6HOcCF61G4HkU4wAAAAAAAQDjAZmZmZmZGRECamZmZmdlDQGQ730+Nl9a/MzMzMzNTQcBI4XoUrkfxP+xRuB6FaznAcT0K16OwTkAdWmQ7388QQLgehetReDHAGQRWDi2ynT8ZBFYOLbKdPwAAAAAAANi/N4lBYOUwMMA3iUFg5TAwwBSuR+F6lDfAaJHtfD+VN8AGgZVDi2z3v8uhRbbzfTNAexSuR+E6N8DNzMzMzEw7wJqZmZmZ2TfAAAAAAADAN8AUrkfhelQ5wArXo3A9Ci/ARIts5/up5b9cj8L1KFzvP8uhRbbznTrAfT81Xrr5QUBxPQrXo1BCwIXrUbgehfc/CtejcD2qRUAUrkfhehQ5wPYoXI/CdS7AhetRuB6F8z8X2c73U+PFv+xRuB6FazLA4XoUrkfhNsDP91PjpZswwFyPwvUoXAdASgwCK4cW5b97FK5H4bo0wGZmZmZmJjPA5/up8dItM0DD9ShcjwJMQAAAAAAAAPi/mpmZmZlZRUCPwvUoXI8IwJ7vp8ZLB0xAw/UoXI/CQUAfhetRuF43wOxRuB6FKznAH4XrUbjeMcAUrkfhetQ2wLgehetRuDjA+FPjpZsUQcB7FK5H4TozQFK4HoXr0TNAmpmZmZl5M0AAAAAAAAAKwCUGgZVDSzDApHA9CtejwD+gGi/dJAbBPxSuR+F6FPa/SOF6FK5HOMDl0CLb+X7qP3sUrkfhejrAnMQgsHLIM8AfhetRuB47wK5H4XoU7jTAzczMzMxMNcBI4XoUrgczQJqZmZmZWTfA5/up8dJNQcCamZmZmdk0wM3MzMzMDDLAy6FFtvOdOsAfhetRuB75P8uhRbbzfTPAH4XrUbieQcDZzvdT4wUzQK5H4XoULjjAj8L1KFyPAkAAAAAAAAA3wFK4HoXrkTbAj8L1KFxvR0CBlUOLbHdBwDEIrBxaxDrAFK5H4XqUE0AAAAAAACBDQI/C9Shcjy/AN4lBYOWQL8B7FK5H4bo2wGq8dJMY5EDA4XoUrkfhNcBcj8L1KBxPQD0K16NwPQDASOF6FK5HE0D2KFyPwrVEQGZmZmZmZjjA9ihcj8L1AED2KFyPwnVDQMP1KFyPQi5AuB6F61G4McCamZmZmZk8QMUgsHJoES5A4XoUrkfBMMDVeOkmMWhBwDMzMzMzMzvAMzMzMzMzO8CuR+F6FK4SQM/3U+OlGzNARrbz/dR4978zMzMzM7NAwGZmZmZmBjHAzczMzMwMOMB7FK5H4VowwM3MzMzM7EFAAAAAAAAAT0CuR+F6FC4xwAAAAAAAgDXA"
+                },
+                "yaxis": "y",
+                "type": "scatter"
+            }
+        ],
+        "gt": {
+            "x": [
+                6046.0,
+                4713.0,
+                5753.0,
+                6100.0,
+                6082.0,
+                6082.0,
+                4090.0,
+                5165.0,
+                null,
+                4463.0,
+                5189.0,
+                4070.0,
+                5401.0,
+                5005.0,
+                4095.0,
+                5650.0,
+                5790.0,
+                5790.0,
+                4643.0,
+                6057.0,
+                6057.0,
+                5778.0,
+                5778.0,
+                6310.0,
+                4282.0,
+                5631.0,
+                6052.0,
+                5623.0,
+                5852.0,
+                5463.0,
+                6377.0,
+                5911.0,
+                4764.0,
+                6532.0,
+                5670.0,
+                4709.0,
+                4150.0,
+                5633.0,
+                5447.0,
+                5498.0,
+                null,
+                4276.0,
+                4784.0,
+                6071.0,
+                5598.0,
+                null,
+                4850.0,
+                5365.0,
+                5248.0,
+                null,
+                5163.0,
+                5050.0,
+                5230.0,
+                4585.0,
+                4507.0,
+                5050.0,
+                5895.0,
+                4835.0,
+                5808.0,
+                5592.0,
+                5697.0,
+                5340.0,
+                5916.0,
+                6739.0,
+                5264.0,
+                4503.0,
+                null,
+                4206.0,
+                4170.0,
+                4565.0,
+                5822.0,
+                4263.0,
+                4263.0,
+                4127.0,
+                4109.0,
+                4445.0,
+                6127.0,
+                5438.0,
+                6887.0,
+                5407.0,
+                5868.0,
+                5675.0,
+                4555.0,
+                4860.0,
+                5543.0,
+                5300.0,
+                5740.0,
+                4054.0,
+                4037.0,
+                4107.0,
+                5426.0,
+                6233.0,
+                4650.0,
+                5703.0,
+                5890.0,
+                4392.0,
+                4999.0,
+                4400.0,
+                5321.0,
+                null,
+                4811.0,
+                5967.0,
+                5967.0,
+                5971.0,
+                5856.0,
+                6145.0,
+                4949.0,
+                5230.0,
+                4950.0,
+                4317.0,
+                6051.0,
+                4400.0,
+                4434.0,
+                4110.0,
+                5980.0,
+                4050.0,
+                4220.0,
+                5408.0,
+                null,
+                4280.0,
+                6660.0,
+                6660.0,
+                5200.0,
+                4690.0,
+                5023.0,
+                6000.0,
+                5815.0,
+                5500.0,
+                5672.0,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                5400.0,
+                4317.0,
+                5550.0,
+                4050.0
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "histogram"
+        }
+    },
+    {
+        "index": 50,
+        "success": 1,
+        "chart_type": "histogram",
+        "expected_chart_type": "histogram",
+        "hit": 1,
+        "score": 0.75,
+        "reasoning": "\nTo analyze the distribution of age for survivors and non-survivors, I first need to filter the data based on the 'Survived' column. Since the data is numerical and continuous, a histogram is suitable to visualize how age values are distributed and to identify common ranges and outliers.\n",
+        "res_data": [
+            {
+                "bingroup": "x",
+                "hovertemplate": "Survivor Age=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "nbinsx": 50,
+                "orientation": "v",
+                "showlegend": false,
+                "x": {
+                    "dtype": "f8",
+                    "bdata": "AAAAAACASEAAAAAAAAA9QAAAAAAAgEFAAAAAAAAA+H8AAAAAAABBQAAAAAAAABBAAAAAAAAAN0AAAAAAAEBAQAAAAAAAAE1AAAAAAAAANUAAAAAAAAAsQAAAAAAAADZAAAAAAAAACEAAAAAAAAAzQAAAAAAAADxAAAAAAAAAMUAAAAAAAABDQAAAAAAAADtAAAAAAAAAPkAAAAAAAIBAQAAAAAAAAEBAAAAAAAAALkAAAAAAAAAUQAAAAAAAADhAAAAAAACAS0AAAAAAAAA6QI/C9Shcj+o/AAAAAAAAKEA="
+                },
+                "xaxis": "x",
+                "yaxis": "y",
+                "type": "histogram"
+            }
+        ],
+        "gt": {
+            "x": [
+                38.0,
+                26.0,
+                35.0,
+                27.0,
+                14.0,
+                4.0,
+                58.0,
+                55.0,
+                34.0,
+                15.0,
+                28.0,
+                38.0,
+                14.0,
+                3.0,
+                19.0,
+                49.0,
+                29.0,
+                21.0,
+                5.0,
+                38.0,
+                29.0,
+                17.0,
+                32.0,
+                0.83,
+                30.0,
+                29.0,
+                17.0,
+                33.0,
+                23.0,
+                23.0,
+                34.0,
+                21.0,
+                32.5,
+                12.0,
+                24.0,
+                29.0,
+                19.0,
+                22.0,
+                24.0,
+                27.0,
+                22.0
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "histogram"
+        }
+    },
+    {
+        "index": 51,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the trend of average fare over age groups, I first need to filter the data for passengers who have paid a fare (i.e., not missing any fare values) and then group the data by age groups. Since the age values are continuous, I will use bins to categorize them into different age groups.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for passengers who have paid a fare\ndf_fare = df.filter(df['Fare'].notnull())\n\n# Define age groups and their corresponding bin ranges\nage_groups = {\n    '0-11': (0, 12),\n    '12-22': (13, 23),\n    '23-32': (24, 33),\n    '33-42': (34, 44),\n    '43-52': (45, 56),\n    '53+': (57, float('inf'))\n}\n\n# Create a new column for age groups\ndf['age_group'] = pd.cut(df['Age'], bins=[0, 12, 24, 36, 48, 60, float('inf')], labels=age_groups.keys())\n\n# Group by age group and calculate average fare\ndf_avg_fare = df.groupby('age_group')['Fare'].mean().reset_index()\n\n# Create bar chart with Plotly\nfig = px.bar(df_avg_fare, x='age_group', y='Fare', nbinsx=len(age_groups), labels={'age_group': 'Age Group'}, \n             title='Trend of Average Fare over Age Groups')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 52,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the number of survivors from each embarkation port, I need to filter the data for 'Embarked' equal to 'S' (Survived) and then group by 'Embarkation Port'. A bar chart is suitable to visualize how many passengers survived at each port.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Filter for Survived and Embarked 'S'\ndf_survived_s = df.filter(df['Survived'] == 1) & (df['Embarked'] == 'S')\n\n# Group by Embarkation Port and count the number of survivors\ndf_grouped = df_survived_s.groupBy('Embarkation Port').count()\n\n# Create bar chart with Plotly\nfig = px.bar(df_grouped, x='Embarkation Port', y='count', title='Number of Survivors from Each Embarkation Port')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 53,
+        "success": 0,
+        "model_output": "<thinking>\nTo analyze the variability of fares across different ticket classes, I need to first identify the unique ticket class values and then calculate the average fare for each class. A bar chart will be suitable to visualize how fare values are distributed among these classes.\n</thinking>\n\n<chart-code>\nfrom pyspark.sql import SparkSession\nimport plotly.express as px\n\n# Start Spark session\nspark = SparkSession.builder.getOrCreate()\n\n# Assuming df is already a Spark DataFrame\n# Group by Ticket and calculate average Fare\ndf_avg_fare = df.groupby('Ticket')['Fare'].mean().reset_index()\n\n# Create bar chart with Plotly\nfig = px.bar(df_avg_fare, x='Ticket', y='Fare', nbins=10, labels={'Ticket': 'Ticket Class', 'Fare': 'Average Fare ($)'}, \n             title='Variability of Fares Across Ticket Classes')\n\n# Display plot\nfig.to_json()\n</chart-code>"
+    },
+    {
+        "index": 54,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "scatter",
+        "hit": 0,
+        "score": 0.4,
+        "reasoning": "\nTo visualize the cumulative number of passengers across different age groups, we can use a bar chart where the x-axis represents the age groups and the y-axis represents the cumulative number of passengers.\n",
+        "res_data": [
+            {
+                "hovertemplate": "Age=%{x}<br>sum(Survived)=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": {
+                    "dtype": "f8",
+                    "bdata": "AAAAAAAAIEAAAAAAAAAcQAAAAAAAgEhAAAAAAAAAPUAAAAAAAEBEQAAAAAAAgEdAAAAAAAAARUAAAAAAAIBBQAAAAAAAAPh/AAAAAAAAMkAAAAAAAIBDQAAAAAAAAEFAAAAAAACAQkAAAAAAAAA5QAAAAAAAABBAAAAAAAAAN0AAAAAAAAAtQAAAAAAAgEZAAAAAAADAUUAAAAAAAEBAQAAAAAAAAD9AAAAAAAAAJkAAAAAAAABNQAAAAAAAADVAAAAAAACASUAAAAAAAAAsQAAAAAAAADZAAAAAAACAUEAAAAAAAEBCQAAAAAAAADNAAAAAAAAACEAAAAAAAIBNQAAAAAAAAEdAAAAAAAAAPEAAAAAAAIA8QAAAAAAAAABAAAAAAAAAMUAAAAAAAABDQAAAAAAAADtAAAAAAAAAREAAAAAAAAA+QAAAAAAAgEBAAAAAAAAANEAAAAAAAABAQAAAAAAAAC5AAAAAAAAAFEAAAAAAAAA4QAAAAAAAgEtAAAAAAACgUUAAAAAAAMBLQI/C9Shcj+o/AAAAAAAAOkAAAAAAAAAiQAAAAAAAQFBAAAAAAAAAMEAAAAAAAAAoQAAAAAAAAEtA"
+                },
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i1",
+                    "bdata": "AAABBAAAAAENAAACAAABAgAAAAEAAAECAAICAAACAQAAAQAAAgMCAAEBAAEBAQIBAAABAQAAAAEA"
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "x": [
+                0,
+                10,
+                20,
+                30,
+                40,
+                50,
+                60,
+                70
+            ],
+            "y": [
+                41,
+                63,
+                110,
+                133,
+                144,
+                152,
+                154,
+                156
+            ],
+            "xaxis": "x",
+            "yaxis": "y",
+            "type": "scatter"
+        }
+    },
+    {
+        "index": 55,
+        "success": 1,
+        "chart_type": "bar",
+        "expected_chart_type": "pie",
+        "hit": 0,
+        "score": 0.0,
+        "reasoning": "\nTo analyze the proportion of passengers by ticket class, I need to filter the data for each ticket class and then calculate the total number of passengers in each class. A bar chart is suitable to visualize how many passengers are in each ticket class.\n",
+        "res_data": [
+            {
+                "hovertemplate": "Ticket=%{x}<br>count=%{y}<extra></extra>",
+                "legendgroup": "",
+                "marker": {
+                    "color": "#636efa",
+                    "pattern": {
+                        "shape": ""
+                    }
+                },
+                "name": "",
+                "orientation": "v",
+                "showlegend": false,
+                "textposition": "auto",
+                "x": [
+                    "345763",
+                    "364500",
+                    "A/4. 39886",
+                    "PC 17604",
+                    "C.A. 2315",
+                    "244373",
+                    "1601",
+                    "350043",
+                    "349208",
+                    "349241",
+                    "C.A. 29178",
+                    "W.E.P. 5734",
+                    "343276",
+                    "C.A. 34651",
+                    "345764",
+                    "C.A. 33112",
+                    "2669",
+                    "2926",
+                    "347088",
+                    "7540",
+                    "W./C. 6608",
+                    "239865",
+                    "113776",
+                    "113783",
+                    "PC 17601",
+                    "349215",
+                    "315151",
+                    "231945",
+                    "113788",
+                    "PC 17599",
+                    "PC 17558",
+                    "3101281",
+                    "STON/O 2. 3101294",
+                    "230080",
+                    "330877",
+                    "C.A. 31026",
+                    "3101276",
+                    "347466",
+                    "STON/O2. 3101282",
+                    "382652",
+                    "2649",
+                    "312991",
+                    "2631",
+                    "11668",
+                    "A4. 54510",
+                    "2668",
+                    "349909",
+                    "S.O.C. 14879",
+                    "7534",
+                    "343275",
+                    "231919",
+                    "348123",
+                    "370369",
+                    "SOTON/O.Q. 3101307",
+                    "113803",
+                    "349237",
+                    "349216",
+                    "347077",
+                    "14311",
+                    "CA 2144",
+                    "113572",
+                    "2661",
+                    "SC/Paris 2123",
+                    "PC 17759",
+                    "371110",
+                    "17463",
+                    "335677",
+                    "A/5 21171",
+                    "2627",
+                    "Fa 265302",
+                    "SO/C 14885",
+                    "365222",
+                    "SC/PARIS 2133",
+                    "C 17369",
+                    "248706",
+                    "2665",
+                    "PC 17605",
+                    "347742",
+                    "110465",
+                    "C.A. 24579",
+                    "374910",
+                    "345767",
+                    "330932",
+                    "PP 9549",
+                    "A/5. 3337",
+                    "113509",
+                    "248738",
+                    "324669",
+                    "PC 17593",
+                    "248698",
+                    "2680",
+                    "347081",
+                    "3101295",
+                    "374746",
+                    "364516",
+                    "347082",
+                    "370371",
+                    "113059",
+                    "330959",
+                    "35281",
+                    "S.C./A.4. 23567",
+                    "19950",
+                    "349249",
+                    "11752",
+                    "A/5. 2151",
+                    "PC 17572",
+                    "2697",
+                    "27267",
+                    "STON/O2. 3101279",
+                    "C.A. 33111",
+                    "345779",
+                    "370372",
+                    "C.A. 29395",
+                    "349245",
+                    "36973",
+                    "A/5. 851",
+                    "113789",
+                    "4136",
+                    "237736",
+                    "349253",
+                    "2662",
+                    "A./5. 2152",
+                    "347061",
+                    "A.5. 11206",
+                    "7546",
+                    "244367",
+                    "244310",
+                    "373450",
+                    "3101278",
+                    "S.P. 3464",
+                    "PC 17754",
+                    "343120",
+                    "330958",
+                    "SOTON/OQ 392086",
+                    "S.O.P. 1166",
+                    "330923",
+                    "2651",
+                    "PC 17569",
+                    "19947",
+                    "PC 17597",
+                    "2678",
+                    "2677",
+                    "349207",
+                    "228414",
+                    "350406"
+                ],
+                "xaxis": "x",
+                "y": {
+                    "dtype": "i1",
+                    "bdata": "AQEBAQEBAQEBAQEBAQEBAQEBAQECAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQIBAQICAQEBAQEBAgEBAQECAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQECAQEBAgECAQEBAQEBAQEBAQEBAQEBAQIBAQEBAQEBAQEBAQEBAQEBAQIBAQEBAQEBAQ=="
+                },
+                "yaxis": "y",
+                "type": "bar"
+            }
+        ],
+        "gt": {
+            "type": "pie",
+            "domain": {
+                "x": [
+                    0.0,
+                    1.0
+                ],
+                "y": [
+                    0.0,
+                    1.0
+                ]
+            },
+            "labels": [
+                1,
+                3,
+                2
+            ],
+            "values": [
+                30,
+                96,
+                30
+            ]
+        }
+    }
+]
